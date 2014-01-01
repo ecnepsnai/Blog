@@ -1,0 +1,17 @@
+It saddens me to write this post, but I am sadly putting out myFire today.  Twitter has made it very clear that they do not care about third party app developers anymore, by limiting the amount of tokens an application can have, buying good twitter apps and killing them (Tweetie 2, TweetDeck, Tweetie for Mac) and have just made it too much for one teenaged developer to deal with.
+
+<!--more-->
+
+<h2>Why, Twitter?</h2>
+
+It's really simple why Twitter is killing third party apps: They want people to use the "official" apps because they have the sponsored tweets in them, which makes Twitter money.  Twitter used to be this hip, small, start-up in SanFran that focused more on the users rather than advertisements.  But now, it's clear that they just want users to see more ads so they can make more money.  Sponsored Tweets, Trending Topics, and profile modifications are just some of the changes Twitter has made that can only be seen on the Twitter Website, or official apps. 
+
+<h2>What will become of myFire?</h2>
+
+I cannot completely predict what will happen to myFire.  myFire runs on a modified version of <a href="https://github.com/Twitterizer/Twitterizer">Twitterizer</a>, an abandoned .NET library for the Twitter API.  However, Twitterizer was built using version 1 of the Twitter API, which has been deprecated for quite some time now and will soon be shut off.  Ever since version 1 myFire has had a built in kill switch that I could enable that would prevent the application from starting up.  You could easily bypass this kill switch by denying the specific network call, however it has been enabled for most of the older versions.  If you are using an older version of myFire you may receive a <code>0xa0001 Unexpected Error</code> message.  Newer versions of myFire should continue to operate, however, the domain ifxsoftware.net is currently shut down and will not resolve.  If there are any required resources they will not load and may cause errors.  Eventually Twitter will shut off APIv1 and no requests will return any data.
+
+<h2>What's next?</h2>
+
+Honestly, probably nothing.  myFire was built for a scholarship.  It won.  And as predicted after the scholarship I stopped working on it.  I may build something else, but don't count on it.
+
+<strong>Farewell, myFire, you will hold a special place in my heart and my hard drive.</strong>

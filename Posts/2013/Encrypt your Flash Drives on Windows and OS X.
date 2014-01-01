@@ -1,0 +1,114 @@
+Back to school, time to dust off the ol' 4GB Flash Drive and load it up with all the <s>useless</s> highly important files you'll need to survive this year.  We all know about putting a text file in the root of the drive is a good idea if it becomes lost, right?  Well what about if you don't want people going through those files.  What about Password Protecting that drive?  Well good news: you can.
+
+<!-- more -->
+
+<h2>Encrypt on Windows</h2>
+
+<strong>Encrypting your flash drive on Windows is fairly easy, however it can only be done on Windows 7 Enterprise or Ultimate versions using BitLocker.</strong>
+
+To encrypt a flash drive on Windows:
+
+<ol>
+<li>Insert the Flash Drive into your computer</li>
+<li>Move all of the data from the drive to a temporary location like your desktop</li>
+<li>Open My Computer, right click your flash drive and select format</li>
+<li>Make sure the drive format is <code>Fat32</code> and <code>Quick Format</code> is checked</li>
+
+<figure class="post-image">
+<img src="http://ianspence.com/blog/wp-content/uploads/2013/09/encrypt_win_format.jpg" alt="Formatting your flash drive will remove all data that's on it, so make sure you backed up before!"><br>
+Format your flash drive will remove all data that's on it, so make sure you backed up before!<br>
+</figure>
+
+<li>Format the drive.</li>
+<li>When the drive is finished formatting, right click it and select "Turn on BitLocker"</li>
+<li>Check <code>Use a Password to unlock the drive</code> and enter the desired password</li>
+
+<figure class="post-image">
+<img src="http://ianspence.com/blog/wp-content/uploads/2013/09/encrypt_win_enable.jpg" alt="Enabling BitLocker"><br>
+Enabling BitLocker<br>
+</figure>
+
+<li>Click next, windows will begin to encrypt the drive.  This will take some time, however because we took all of the data off of the drive it will be faster than if we didn't</li>
+<li>When complete, the drive will be encrypted and you will need to enter a password every time you connect the drive.</li>
+
+<figure class="post-image">
+<img src="http://ianspence.com/blog/wp-content/uploads/2013/09/encrypt_win_unlock.jpg" alt="Enter your password to unlock your drive"><br>
+Enter your password to unlock your drive<br>
+</figure>
+</ol>
+
+<strong>Do not forget your password!  Windows will give you the option of saving a recovery file if you do forget your password, however if you don't have the file you will lose all data on the drive.</strong>
+
+<h2>Encrypt on OS X</h2>
+
+Encrypting drives on OS X is very easy, and can be done on any version of OS X.
+
+To encrypt a flash drive on OS X:
+
+<ol>
+<li>Insert the Flash Drive into your computer</li>
+<li>Move all of the data from the drive to a temporary location like your desktop</li>
+<li>Open Disk Utilities by searching for it in Spotlight</li>
+<li>Select the Parent Drive of your flash drive, it should be labeled as the brand of your flash drive, like "Kingston Datatraveler"</li>
+<li>Go to the Erase Tab and change the format to <code>Mac OS Extended (Journaled, Encrypted)</code></li>
+
+<figure class="post-image">
+<img src="http://ianspence.com/blog/wp-content/uploads/2013/09/encrypt_osx_dskutl.jpg" alt="Formatting your flash drive will remove all data that's on it, so make sure you backed up before!"><br>
+Formatting your flash drive will remove all data that's on it, so make sure you backed up before!<br>
+</figure>
+
+<li>Click the Erase Button and enter the desired password and hint</li>
+
+<figure class="post-image">
+<img src="http://ianspence.com/blog/wp-content/uploads/2013/09/encrypt_osx_enable.jpg" alt="Enter the desired password"><br>
+Enter the desired password<br>
+</figure>
+
+<li>Click Erase, OS X will begin to encrypt the drive.  This will take some time, however because we took all of the data off of the drive it will be faster than if we didn't</li>
+<li>When complete, the drive will be encrypted and you will need to enter a password every time you connect the drive.</li>
+
+<figure class="post-image">
+<img src="http://ianspence.com/blog/wp-content/uploads/2013/09/encrypt_osx_unlock.jpg" alt="Enter your password to unlock your drive"><br>
+Enter your password to unlock your drive<br>
+</figure>
+</ol>
+
+<strong>Do not forget your password!  Without the password you will not be able to get any of the data on the drive, as well it will become difficult to recover the drive.</strong>
+
+<h2>I forgot my password!  What now?</h2>
+
+If you lose the only key to your house, you're in trouble.  You'll have to call a locksmith and pay them to unlock the door, which in turn breaks the lock.  The same goes for your flash drive, except rather than breaking the lock, you'll lose all of your data.  Keep your password safe, there is no way to recover data if you lose the password.
+
+<h3>Windows</h3>
+
+Windows will give you the option of saving a recovery key that can be used if you forget your password, this is a great tool, however if you didn't save or lose that file there is nothing you can do.  However, to continue using that drive you'll need to reformat the drive which will remove everything.
+
+<ol>
+<li>Insert the Flash Drive into your computer</li>
+<li>Move all of the data from the drive to a temporary location like your desktop</li>
+<li>Open My Computer, right click your flash drive and select format</li>
+<li>Make sure the drive format is <code>Fat32</code> and <code>Quick Format</code> is checked</li>
+
+<figure class="post-image">
+<img src="http://ianspence.com/blog/wp-content/uploads/2013/09/encrypt_win_format.jpg" alt="Format the drive so you can use it again."><br>
+Format the drive so you can use it again.<br>
+</figure>
+
+<li>Format the drive.</li>
+</ol>
+
+<h3>OS X</h3>
+
+OS X does not give you any password recovery methods other than a password hint, so if you lose your password you can't do anything.  If you want to continue using your drive, you'll need to force format it using terminal, as disk utility will allow you to format an encrypted drive.
+
+<ol>
+<li>Open terminal by searching for it in spotlight</li>
+<li>Enter the following command: [sourcecode lang="bash"]diskutil list[/sourcecode]</li>
+<li>You should see at least 3 dists listed: Macintosh HD, Recovery HD, and your drive.</li>
+<li>Look under the size column for your flash drive, please note that it may be a little smaller than whats advertised, so a 4GB drive may only say 3.9GB</li>
+<li>Note the disk number of your flash drive</li>
+<li>Enter the following command: [sourcecode lang="bash"]diskutil eraseDisk exFAT Untitled disk#[/sourcecode] Note where # is the number of your disk</li>
+<li>This will remove all of the data on the drive and the encryption as well, you may now use your drive again.</li>
+</ol>
+
+[tip]<strong>Warning:</strong> be careful with the diskutil command, selecting the wrong disk can render your computer useless.[/tip]

@@ -1,0 +1,44 @@
+Java has quickly become one of the least secure application frameworks on the internet.  Regardless of how much or good your antivirus is, a good Java exploit can ruin your system and spread to other computers on a local network.  Very, <em>very</em>, few websites still use Java, so you can safely disable it without having problems.
+
+<!--more-->
+
+<h2>Google Chrome</h2>
+
+<ol>
+<li>In the Omnibox, type in <code>about://plugins</code> and press Enter</li>
+<li>Find Java and click Disable</li>
+</ol>
+
+
+<h2>Safari</h2>
+
+<ol>
+<li>Open Safari's Preferences and go to the Security tab</li>
+<li>Uncheck Enable Java</li>
+</ol>
+
+
+<h2>Firefox</h2>
+
+<ol>
+<li>Select Add-Ons from under the Tools menu</li>
+<li>Go to the Plugins tab</li>
+<li>Click Disable beside Java Applet Plug-in...</li>
+</ol>
+
+
+<h2>Opera</h2>
+
+<ol>
+<li>In the address box, type in <code>opera://plugins</code></li>
+<li>Click Disable by Java Applet Plug-in</li>
+</ol>
+
+
+<h2>Internet Explorer</h2>
+
+<ol>
+<li>Click the Cog/Gear button and select Manage Add-ons</li>
+<li>Select "Currently loaded add-ons" and choose "All add-ons"</li>
+<li>Find "Java Plug-in" and click Disable</li>
+</ol>

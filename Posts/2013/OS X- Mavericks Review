@@ -1,0 +1,96 @@
+Apples next iteration in the OS X family, OS X <s>Sea Lion</s> Mavericks is nearly here, and while iOS 7 may have been one of the largest changes made one of Apple's Operating Systems, is Mavericks just as amazing, or will it fall short and land on some Green Velvet?
+
+<h2>New & Improved Apps</h2>
+
+Much like OS X Mountain Lion, Apple continues to make their operating system more like their phone by adding similar features like Notifications, Notes, Share Dialogs, and more.  A lot of these are great features that are really well made, however I never have found a use for them.  Being the proud owner of both a Gaming Rig and a PS3, I never play games on my laptop and therefor have never used Game Centre.  In Mavericks, Apple has yet again added 2 more applications found on iOS, however they aren't all bad.  Let's take a look at some of the new and improved applications in OS X Mavericks.
+
+<h3>Maps</h3>
+
+Let's be honest, iOS 6 was probably one of the worst updates for iOS, with the removal of both Google Maps and YouTube, people were very quick to attack Apple and never look back.  Yes, Apple Maps <a href="https://twitter.com/ecnepsnai/status/212951204379107329" target="_blank">has issues</a> but after the angry mob moved on to either different phones, or Google Maps, Apple Maps has been working hard.
+
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/10/mavericks_maps.jpg" alt="Apple Maps, running in OS X." />
+Apple Maps, running in OS X.
+</figure>
+
+Now, don't get me wrong, Apple Maps are still nowhere near the quality of Google Maps, and they never will.  But that doesn't mean that the new Maps app isn't a great tool.  Maps on OS X is exactly what you would see on your iOS device.  Maps takes great use of the multi-touch gestures on your trackpad, making it a very easy to use Application that can come in handy when you need to quickly look up an address.
+
+<hr/>
+
+<h3>iBooks</h3>
+
+I never did use the iBooks app on my phone, as most of the books I read are online, or a physical book.  But the new iBooks app can be seen as a welcome new feature to some.
+
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/10/mavericks_ibooks.jpg" alt="The iBooks store" />
+The iBooks store
+</figure>
+
+The App is easy enough, copying the look of iTunes and the App Store, users can download books from the store, or import PDFs into their library.
+
+<hr/>
+
+<h3>Calendar</h3>
+
+Cows and Animal Rights Activists alike will be happy to hear the Calendar has finally grown out of that "leather" phase, and into a much cleaner look with the normal UI themes found in the rest of OS X.
+
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/10/mavericks_calendar.jpg" alt="Calendar sheds the leather for a clean new look" />
+Calendar sheds the leather for a clean new look
+</figure>
+
+Along with the new look, Calendar gets a little better with built in Maps, Directions, and Weather.
+
+<hr/>
+
+<h3>Finder</h3>
+
+Finding things just got a lot easier with the new Finder.  Tabs, Full screen, and Tags are just some of the major improvements to the file browsing application in OS X.  Finder has always been a exceptional file navigator, with hundreds of intuitive and smart features that just make it so much easier to get things done, or keep things organized.
+
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/10/mavericks_finder.jpg" alt="Finding things gets easier with Tabs" />
+Finding things gets easier with Tabs
+</figure>
+
+Tabs in Finder work and look just like in Safari, even using the same Keyboard Shortcuts.  As somebody that is anal about file organization, this new feature has completely made the update worth it.  One thing I found very nice about Tags is that applications don't need to make any changes to support them, OS X directly added tag support right into the System Save Dialog.
+
+<h2>Performance</h2>
+
+<h3>System Specifications</h3>
+<ul>
+<li>MacBook Pro 13" Early 2011</li>
+<li>Intel Core i5 at 2.3GHz</li>
+<li>8GB of 1333MHz DDR3 RAM</li>
+<li>1TB 7200RPM HDD</li>
+</ul>
+
+With OS X Mavericks, Apple has said that they are taking Battery Life and Performance to the next level.  Apple has rebuilt their kernel to include something called Timer coalescing, which groups smaller operations together to allow the CPU more time to enter a low power state.  This feature has been included in Windows since Windows 7, has been known to save on battery life, but can cause a performance degradation in some cases.  To start things off, OS X includes a much better Activity Monitor, featuring an all new Energy tab which lets you see what applications are eating up your battery.
+
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/10/mavericks_activity.jpg" alt="The updated activity monitor" />
+The updated activity monitor
+</figure>
+
+Mavericks also includes a new features called App Nap, which will put applications that are out-of-sight into a low power state, restricting the amount of CPU and RAM it has access to.  Another welcome improvement to Mavericks is Memory Compression which compresses memory data to save space.  Opening a 14MB .TIFF in Photoshop CS6 uses around 40 fewer megabytes of RAM than it did on OS X Mountain Lion.  However, with all of these great new performance enhancing features, one important process did take a big hit, Startup.  My MacBook now takes an around 30 seconds longer to start up with a total time of 1 minute and 39 seconds.
+
+<h2>Conclusion</h2>
+
+Overall, OS X Mavericks isn't an overwhelmingly amazing update, however when you don't have to spend a pennt getting it, you can't be too disappointed.  Apple clearly has put Battery Life and Performance first in this update, which are always two of the biggest complaints of users when it comes to mobile devices.
+
+<div class="review_score">
+<div>
+<strong>The Good</strong>
+<ul>
+<li>New Features in Finder</li>
+<li>Multiple Displays improvements</li>
+<li>Longer Battery Life</li>
+<li>Perfect Price</li>
+</ul>
+</div>
+<div>
+<strong>The Bad</strong>
+<ul>
+<li>Startup Time Sucks</li>
+<li>More apps I never use</li>
+</ul>
+</div>
+<div>
+<h2 class="review_final_score">Final Score: 7/10</h2>
+</div>
+</div>
+<blockquote>Not a huge step forwards, but certainly not a step backwards.</blockquote>

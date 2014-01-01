@@ -1,0 +1,206 @@
+Mac's aren't cheap. Everybody knows that. And when you spent $2,000 or more on your shiny new computer, you expected it to be fast and stay that way. But to your disappointment it wasn't like that and that shiny new computer is now basically just a really expensive progress bar. Fortunately, you have come to the right place. In this tutorial we will go over the things you can to do speed up your Mac, and restore the love you once felt for your investment.
+
+<!--more-->
+
+
+<h2>Why Is My Mac So Slow?</h2>
+Remember the first time you started up your Mac? Hearing that lovely tone you thought would never get annoying and seeing the beautifully designed Apple-centric Boot Image. It sure was a special moment. But now the love you once felt is gone, and you spend a little too much time staring at the boot image rather than actually using your computer. It's true, over time your computer will slow down and stop working the way it once did.
+
+There are many reasons why your computer will become slow over time, here are two of the most common:
+
+<h3>Caching</h3>
+Much like an automobile, your computer needs regular maintenance to keep it running at its peak-performance. The more you drive your car, the more "gunk" will build up in your engine. Over time, this "gunk" can impede the performance of the engine. The same applies for computers. To keep things running smoothly, your computer is constantly caching files. If this cache is never cleaned, over time it can become quite large, and eventually slow down your computer.
+
+<h3>Hardware</h3>
+As time progresses, computer programs become more and more powerful, while your computer does not. If you noticed that upgrading to Mountain Lion knocked the speed of your machine down a bit, this is because Mountain Lion is demanding more than what Lion did.
+
+
+<h2>Freeing Up Disk Space</h2>
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/02/startupdisk-1.jpg" alt="Your startup disk is almost full, now what?" /><br />Your startup disk is almost full, now what?</figure>
+
+While having a full hard drive may not be the biggest contribution to having a slow computer, it can cause other weird side effects on daily use.  When an application needs more RAM than is available, it uses your hard drive as a "scratch-disk".  However, if your hard drive is too full, these applications may experience an "out of memory" error.  Adobe Photoshop is a prime example of an application that uses hard drives when there isn't enough memory.
+
+The easiest way to free up some space is to clean up your folders.  Go through your files and delete the stuff you never use anymore.  The downloads folder can become huge after a while.  Delete the files then empty your trash by right clicking on the trash icon on the dock and selecting <em>Empty Trash</em>.
+
+Still need more space?  We have a full tutorial on <a href="http://mac.tutsplus.com/tutorials/os-x/what-to-do-when-your-macs-startup-disk-is-almost-full">What To Do When Your Mac’s Startup Disk is Almost Full</a>.
+
+
+<h2>Solid State Drives</h2>
+
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/02/IntelFlash.jpg" alt="The inside of a Solid State Drive." /><br />The inside of a Solid State Drive.</figure>
+
+Solid state hard drives (SSDs) are becoming more and more popular now that the prices are starting to go down.  Before solid state drives, we relied on a spinning disk to read and write information to.  These disks are extremely fragile and take a long time to spin up. Thanks to flash storage, solid state drives don't use any spinning parts, and are much faster.
+
+<h3>Pros and Cons of an SSD</h3>
+The biggest advantage to solid state drives is speed.  Solid state drives are by nature much faster than regular hard disk drives.  The other advantage is power.  Because solid state drives don't have any moving parts, they use much less power, which is why they are currently used is almost every MacBook (except the non-retina MacBook Pro).
+
+The downside to an SSD is space and cost.  SSDs are relatively new and cost a lot of money to make.  At the time of writing this article, an Intel 240GB SSD costs $270, while a 3TB (3,000 GB) HDD costs $160.
+
+<h3>Installing an SSD</h3>
+If you're using an older Hard Disk Drive you can easily swap it for a solid state drive. Hard drives are meant to be swapped, especially if you own a Mac Pro.  To upgrade your hard drive, just open your case, remove your old hard drive (if you don't have an free bay), and install the new one.  We have an in-depth tutorial that will <a href="http://mac.tutsplus.com/tutorials/hardware/how-to-upgrade-your-macbook-pro-to-an-ssd/">walk you through the complete process</a>.
+
+
+<h2>Configuring OS X to Be Faster</h2>
+The one thing I really hate about OS X is that it's built to please everybody, and while that sounds like a good thing, it can actually slow down your computer.  Because Apple wants to please everybody, they include a lot on unnecessary crap on your system that over time slows it down.  A perfect example?  Game Center.  If you don't use your Mac for gaming, why do you need it?  Unfortunately, OS X does not let you uninstall these applications, but you can disable them.
+
+<h3>Changing Startup Items</h3>
+OS X lets you have applications automatically open when you turn on your computer.  While this can be really handy, applications can add themselves to this list and start up when you really don't need them to.  It's a good idea to check up on the <em>Login Items</em> list ever now and then and remove applications that you don't need every time you use your computer.
+
+<strong>To remove Login Items</strong>
+<ol>
+<li>Open System Preferences and select <em>Users and Groups</em></li>
+<li>Select your user on the side and go to the <em>Login Items</em> tab</li>
+
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/02/Performance_LoginItems.png" alt="The Login Items settings tab." />
+The Login Items settings tab.</figure>
+
+<li>Select applications you don't need and click the minus button to remove them.</li>
+</ol>
+
+OS X also adds items to the startup queue without adding them to the <em>Login Items</em> list.  If you want to remove even more applications from the startup queue, you can do that through the <em>StartupItems</em> folder.
+
+<strong>To move Statup Items</strong>
+<ol>
+<li>In Finder, click <em>Go</em> and select <em>Go To Folder</em></li>
+<li>Type in <code>/Library/StartupItems</code> and click <em>Go</em></li>
+<li>Each folder represents a process or application that starts when the computer runs.  Just delete the folder to stop it from running at boot.</li>
+</ol>
+
+[tip]<strong>Tip:</strong> If you're unsure about what the application does or is, don't remove it.  Removing startup items from the <em>StartupItems</em> folder can break other applications.[/tip]
+
+<h3>Disabling Un-used Features</h3>
+There are plenty of features I don't use on OS X that are just taking up processing power and RAM.  Two of which are <em>Dashboard</em> and the <em>Notification Center</em>.
+
+<strong>To Disable Dashboard</strong>
+Dashboard is that desktop space that lets you add widgets like Weather and Calculator.  But if you never use these widgets you remove dashboard from your computer.
+<ol>
+<li>Open Terminal by searching for it in Spotlight or opening it from the <em>Applications > Utilities</em> folder.</li>
+<li>Enter the following command: [sourcecode language="bash"]defaults write com.apple.dashboard mcx-disabled -boolean YES[/sourcecode]</li>
+<li>Next you have to restart Finder.  Enter the following command: [sourcecode language="bash"]killall dock[/sourcecode]  It will automatically restart.</li>
+</ol>
+
+Dashboard is now gone from your computer!  To get it back: Follow the same steps but change <code>-boolean YES</code> to <code>-boolean NO</code>.
+
+<strong>To disable Notification Center</strong>
+If you don't need the Notification Center feature introduced in OS X Mountain Lion, you can easily disable it with a Terminal command.
+<ol>
+<li>Open Terminal by searching for it in Spotlight or opening it from the <em>Applications > Utilities</em> folder.</li>
+<li>Enter the following command [sourcecode language="bash"]launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist[/sourcecode]</li>
+<li>Next you have to close Notification Center.  Enter the following command: [sourcecode language="bash"]killall NotificationCenter[/sourcecode]  If you see an error reading that there was no process, don't worry.</li>
+</ol>
+
+And right away, you will see that the Notification Center icon is gone from the menu bar!  If you need to get it back:
+
+<ol>
+<li>Enter the following command in Terminal [sourcecode language="bash"]launchctl load -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist[/sourcecode]</li>
+<li>Hit <strong>Command+Shift+G</strong> in Finder and go to /System/Library/CoreServices/ then find "Notification Center" and double-click it to launch it.</li>
+</ol>
+
+<h3>Optimizing Network Settings</h3>
+
+OS X by default optimizes your network settings, so there isn't much you can do.  However, there is one thing that OS X can't control, but you can.  DNS is the Domain Name Service, it is an essential part of the Internet as it changes URLs into IP addresses like <code>108.162.195.12</code>.  Your Internet service providee will provide you with DNS servers, and OS X will use them by default.  However, these servers can be slow and sometimes not safe.  Thankfully, Google provides DNS servers free of charge and are really easy to set up.
+
+<strong>To change to Google DNS</strong>
+<ol>
+<li>Open System Preferences and select <em>Network</em>.</li>
+<li>Click the <em>Advances</em> button in the lower right.</li>
+<li>On the <em>DNS</em> tab, remove all (if any) items under <em>DNS Servers</em>.</li>
+<li>Click the plus button and add the following addresses: <code>8.8.8.8</code> and <code>8.8.4.4</code>.</li>
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/02/Performance_DNS.png" alt="The DNS Settings tab." />
+The DNS Settings tab.</figure>
+
+<li>Click <em>OK</em> and <em>Apply</em>.</li>
+</ol>
+
+
+<h2>RAM</h2>
+Random Access Memory is an essential part of your computer.  RAM is often called memory, and therefore confused with your hard drive.  However, it serves a very different purpose.
+
+Think of your computer like an office space.  You are the processor or CPU.  The desk is the RAM.  And the filing cabinet is the hard drive.  The bigger the desk you have; the more things you can have on your desk.  In computing, the more RAM you have; the more applications you can have open.  Some people say that adding more RAM will not improve the performance of your computer, and I find that to be untrue.  Earlier in this tutorial I mentioned scratch disks, applications that use your hard drive when there isn't enough RAM.  Your hard drive is much slower than your RAM.  Even if you have an SSD.  So the more RAM you have, that the less likely it is that a given application will have to resort to scratch disks.  Adding more RAM can also help your computer and applications start up faster.
+
+<h3>Upgrading Your RAM</h3>
+Upgrading your RAM is one of the most common modifications people make to their computer aside from adding a new hard drive.  And thankfully, it's really easy on a Mac.
+
+[tip]<strong>Tip:</strong> You cannot upgrade your RAM if you own a MacBook Pro with Retina display or MacBook Air.[/tip]
+
+It's a three step process: Identify your RAM Type, Purchase RAM, Install it.
+
+<strong>Identify your RAM Type</strong>
+<ol>
+<li>Open <em>System Information</em> by searching for it in Spotlight or going to your Utilities folder.</li>
+<li>You will see the RAM type listed on the <em>Overview</em> tab.</li>
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/02/Performance_TYPE.png" alt="The RAM Type listed in System Information." />
+The RAM Type listed in System Information.</figure>
+</ol>
+
+<strong>Purchasing RAM</strong>
+Getting RAM is fairly easy.  Online stores like Amazon will have the best quality and price.  But you can go through Apple.  Be warned though, you will be paying a lot more if you buy from Apple.
+
+<strong>Installing RAM</strong>
+Installing your new RAM isn't a difficult process, but it does depend on what type of Mac you have.
+
+<ul>
+<li>MacBook Pro: Toby Seers has an article on <a href="http://mac.tutsplus.com/tutorials/hardware/how-to-upgrade-the-ram-in-your-macbook-pro/">How to Upgrade the RAM in Your MacBook Pro</a>.</li>
+<li>iMac: Apple has a walk-through on how to upgrade your RAM in <a href="http://support.apple.com/kb/HT1423">this support article</a>.</li>
+<li>Mac Pro: Apple has a walk-through on how to upgrade your RAM in <a href="http://support.apple.com/kb/HT4433">this support article</a>.</li>
+<li>Mac Mini: Apple has a walk-through on how to upgrade your RAM in <a href="http://support.apple.com/kb/HT4432">this support article</a>.</li> 
+</ul>
+
+<h3>Freeing Up (Purging) RAM</h3>
+
+Sometimes applications don't clean up after themselves and leave data in the RAM even after they've closed.  If you have a lot of RAM (more than 4GB), this usually isn't a problem, but if you need to you can purge the RAM, which removes all of the non-essential data from the RAM.
+
+Applications like <a href="https://itunes.apple.com/ca/app/memory-clean/id451444120">Memory Clean</a> can help you purge your RAM, some may even do it automatically.  However, purging your memory may not always speed up your system and can in some cases slow it down.  As you purge the RAM, you're causing applications that are open (even in the background) to re-create the data they had on the RAM.
+
+<h3>Creating a Terminal Script to Purge the Memory</h3>
+If you don't want any of the bells and whistle's that come with Memory Clean, you can create your own application that cleans the memory with only a few lines of (easy) code.
+
+Start by opening Terminal.
+<ol>
+	<li>Enter the following line:[sourcecode language="bash"]cd Desktop/[/sourcecode]
+
+and press enter. This points the Terminal to your desktop rather than your user folder. You can point Terminal to any folder you want for this tutorial.</li>
+	<li>Enter:[sourcecode language="bash"]touch Purge[/sourcecode]
+
+and press enter. This creates a new file called "Purge" on your desktop, you won't see it just yet though.</li>
+	<li>Enter:[sourcecode language="bash"]pico Purge[/sourcecode]
+
+and press enter. This opens up the Terminal editor for the purge file.</li>
+	<li>Enter the following text in the editor:[sourcecode language="bash"]#!/bin/sh
+
+purge[/sourcecode]
+
+The <code>#!/bin/sh</code> command tells your computer that this is a terminal script, and the <code>purge</code> command tells the computer to purge or clean the memory.</li>
+	<li>Press <strong>Control + O</strong> and then <strong>Enter</strong> to save the file to your desktop. Then press <strong>Control + X</strong> to exit the editor. <em>Make sure to use the Control key, not the command key.</em></li>
+	<li>Once you're back at the normal Terminal screen, enter:[sourcecode language="bash"]chmod 755 Purge[/sourcecode]
+
+and press enter. This makes the file we just created accessible to you. By default, OS X hides the files you create using <code>touch</code>.</li>
+	<li>You now will have a file on your desktop called "Purge." You can open this file to automatically clean your computers memory. Once the Terminal shows a <code>[Process complete]</code> message you can close the application and continue on.</li>
+</ol>
+
+
+<h2>iLife</h2>
+
+iLife is a software suite that comes pre-installed on your Mac.  It includes iPhoto, iMovie, and GarageBand.  Each of which come with Loops and Sample Media.  You can remove these files to gain back a lot of space, but still be able to use these programs.
+
+To delete these Apple Loops:
+<ol>
+<li>In Finder, select <em>Go</em> and <em>Go To Folder</em></li>
+<li>Type in <code>/Library/Audio/Apple Loops</code></li>
+<li>Delete the <em>Apple Loops</em> folder and empty your trash</li>
+</ol>
+
+
+<h2>Optimizing TimeMachine</h2>
+
+Time Machine is a wonderful backup tool for your Mac, but if you use Aperture, Final Cut Pro X, or any other professional software it may not play too nice with Time Machine. I recommend you change the frequency of Time Machine’s backups to once every three hours.
+
+Start by opening Terminal. Next, copy and paste this command into terminal and press return to run the command:
+
+[sourcecode language="bash"]sudo defaults write /System/Library/LaunchDaemons/com.apple.backupd-auto StartInterval -int 10800[/sourcecode]
+
+As a security measure, Terminal will ask for your password.  Enter your password and the backup interval will be changed to every three hours.
+[tip]<strong>Tip:</strong> 10800 is three hours in seconds. You can change this to whatever value you wish. But be careful! Putting the value too low will cause backup stability issues.[/tip]
+
+<h2>Enjoy</h2>
+After following along with a few of the techniques outlined above, you'll hopefully be experiencing a much more streamlined computing experience. Let us know in the comments below if you have any other techniques for improving the performance of your Mac.  

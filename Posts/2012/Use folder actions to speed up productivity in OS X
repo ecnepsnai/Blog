@@ -1,0 +1,34 @@
+Folder Actions is a neat feature that lets you apply actions for file(s) just by dragging them into a folder! Think of it as a special folder that runs an application each time you put a file in there. One of the best parts of folder actions is that you don't need to know any kind of programming!
+
+<!--more-->
+
+<hr />
+<h2>Screencast</h2>
+<figure class="post-image"><iframe width="601" height="338" src="http://www.youtube.com/embed/IAW1v7byMDc" frameborder="0" allowfullscreen></iframe><br />Use folder actions to speed up productivity in OS X</figure>
+
+<h2>Hello, Automator!</h2>
+Apple understands that people wanted to automate processes, but didn't know how to program.  And from that thought, Automator was born.  A simple application that lets you drag and drop actions onto a process that can be applied to a folder, or even exported as an application.  So lets get started with Automator by making a simple folder action.  In this tutorial I will go over how to make a folder action that automatically creates an archive of the file(s) placed in the folder.  
+
+
+<h2>Your first Folder Action</h2>
+Open Automator.  You can find it by using spotlight, or by looking in the Utilities folder within Applications.
+
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2012/12/FolderActions_SS1.png" alt="The user interface for Automator can be a bit confusing at first, but there isn't much too it." />
+The user interface for Automator can be a bit confusing at first, but there isn't much too it.</figure>
+
+On the left side you have all of the actions you can have OS X Perform.  There are a lot of actions, and over time the more applications you instal; the move actions will be added.  But that's alright, because Automator lets you filter these actions and search specific ones.
+
+Above the big gray area in the middle is the Properties for this folder actions, there is only one setting and it's what folder you would like to apply this action to.  Select Other... from the list and choose your folder.
+
+Since I'm going to be creating a action that automatically creates an archive of the files put inside, drag the Create Archive action on to the main area.  Every action has settings, and you can go even deeper by clicking the options button on the bottom.
+
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2012/12/FolderActions_SS2.png" alt="The options for the Create Archive action." />
+The options for the Create Archive action.</figure>
+
+We're not going to change any of these settings, as the defaults are alright.  That's all we're going to have to do in Automator, save the action and close.
+
+Now you can test the action you created, drag a file into the folder you applied your action to and watch as an archive is automatically created on your dekstop!  You can even drag multiple files and have them added to one archive.
+
+<h2>Wrapping things up</h2>
+
+Now that you know how to make folder actions, you too can save time by having your computer do the work for you.  My favourite is an automatic upload to my network storage for my Pictures folder.  What kind of folder actions have you made?  Let me know in the comments below!

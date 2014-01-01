@@ -1,0 +1,61 @@
+Your computer, regardless of if you’re using it or not, is constantly communicating with the Internet. All of these conversations – held in the background – help keep your system and applications running at tip top shape. But some times there are some applications that just don’t need to communicate with the Internet, or even worse, some apps that send information about your computer and how you use the app without your permission or even knowledge. Little Snitch is an advance firewall application exclusively for OS X that allows you to control where an application can communicate to on the Internet. You can get Little Snitch from <a href="http://www.obdev.at/products/littlesnitch/index.html">Objective Development</a> for $34.95.
+
+<h2>Firewall?</h2>
+
+A firewall is a virtual door controlled by an application on your computer that lies between your computer and the internet. Based on your rules, and its assumptions it will allow and deny connections through that door. This helps keep unwanted network connections from entering your computer, or in some cases, leaving it.
+
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/09/SNITCH_Testing.png" alt="Testing for open ports in Terminal"/>
+Testing for open ports in Terminal
+</figure>
+
+However, there isn’t just one door for every single network connection to go through, there are hundreds! Each of these doors is called a port, and each port is used for different purposes. For example, normal web browsing is done through port 80, secure web browsing is done through port 443, and file transfer is done through 21.
+
+<h3>Doesn’t OS X have a firewall?</h3>
+
+While it is true that OS X has a built in firewall, it’s only half as good as Little Snitch. The default firewall only covers incoming connections, but allows all applications to make outgoing connections without restriction. This is where Little Snitch defines itself, by letting you control all connections, rather than half.
+
+<h2>Setting up Little Snitch</h2>
+
+It’s not hard to set up Little Snitch, just a simple download and install. However, you will need to restart your system after installing. This is because Little Snitch replaces a program called iptables, which is used for system networking. Don’t worry, Little Snitch doesn’t overwrite that program, it just replaces it.
+
+<h3>The Configuration Window</h3>
+
+When you load up Little Snitch for the first time, you will see that there are already a lot of rules created for you. Most of these rules have a lock on them, and are required for normal system operation. while you can disable them, you cannot (and should not) delete them. Selecting a locked rule will show a description of why it’s locked on the side.
+
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/09/SNITCH_Rules.png" alt="The Rule list in Little Snitch"/>
+The Rule list in Little Snitch
+</figure>
+
+On the left hand side of the Configuration Window, you will see the rule filters. Check these every now and again for redundant or invalid rules.
+
+<h3>Creating Filters</h3>
+
+By now, you’ve probably seen the Automatic Rule Creation dialog. This will come up every time a new application wants to make a connection, and there isn’t a rule regarding it. The new rule dialog will show you the application’s name, icon, and where it’s trying to connect to. You can allow or deny the connection:
+
+<ul><li>Forever</li><li>Once</li><li>Until you quit the application</li><li>Until you log out</li><li>Until you restart</li><li>For 15 Minutes</li><li>For 30 Minutes</li><li>For 1 Hour</li><li>For 2 Hours</li></ul>
+
+You can go even further by controlling where the application can connect:
+
+<ul><li>Any Connection</li><li>Only a specific port</li><li>Only a specific domain</li><li>Only a specific domain and port</li></ul>
+
+With all of these controls, you can create a virtually unlimited number of rules for your apps.
+
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/09/SNITCH_Auto.png" alt="Creating rules in Little Snitch"/>
+Creating rules in Little Snitch
+</figure>
+
+When creating filters, ask yourself “What does this application need to do?”. For example, a web browser like Google Chrome, Safari, or FireFox will need to connect to multiple domains and ports. Therefore, giving it a fully open rule would be the smart decision. From there, you can block specific domains if you need to. If you use any peer-to-peer applications like Transmission or uTorrent, you will need to allow it full network access for it to operate normally.
+
+<h3>Manually Creating Rules</h3>
+
+If you need a little more robust control when creating rules, or can’t launch the application until a rule has been made, you can create rules manually through the Little Snitch Configuration Window. To do this, open Little Snitch and select New Rule. The New Rule sheet will drop down.
+
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/09/SNITCH_Manual.png" alt="Manually creating rules in Little Snitch"/>
+Manually creating rules in Little Snitch
+</figure>
+
+At the very top, you can control if you want to block or allow incoming or outgoing connections. You can then choose the application, or set a global rule that applies to all processes. Below that is the fine tuning controls for how you want this rule to work. You will notice that there are a lot more controls than the automatic rule sheet, so go ahead and play around with them!
+
+<h2>Following Up</h2>
+
+So now that you got the basics down of Little Snitch, you’re all set to go out and take control of your privacy when using your Mac. There are plenty of programs out there that send tracking information without your consent. What are some applications that you discovered that are sending info back home?

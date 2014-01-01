@@ -1,0 +1,15 @@
+In today's Quick Tip, we're going to take a look at how to manage and switch between different connection states. Next time you're on the office wifi, then drive home and jack into a wired connection, you'll know exactly what to do.
+
+<!--more-->
+
+<h2>Setting Up Locations</h2>
+MacBooks are made to be portable, why else would they have such great battery life? But there is a downside to using your computer in different places everyday: Internet connections.
+
+Switching between wired and wireless network connections can be a real pain, but OS X has you covered with Network Locations. Network Locations are presents for your network settings, allowing you to quickly switch between them. Once you've set up at least two Network Locations, you can access them from under the Apple menu.
+
+To get started, open System Preferences and choose <em>Network</em>. At the top of Network preferences you will see a <em>Network Locations</em> dropdown box. Click it and choose <em>Edit Locations</em>.
+
+<figure class="post-image"><img style="display: inline-block;" src="http://ianspence.com/blog/wp-content/uploads/2012/12/networklocations_preferences.jpg" alt="The Network Locations dropdown menu within Network Preferences." />
+The Network Locations dropdown menu within Network Preferences.</figure>
+
+You can create and remove Network Locations by using the "+" and "-" buttons. Create a new location, call it "Wired" and click <em>Done</em>. Now disable all the network interfaces that you won't need when you're on Wired, for example: Wi-Fi and Bluetooth.  Make another network location called Wireless and do the same process except leave Wi-Fi enabled.  Now when you need to switch between the two connections you can, right from the Apple Menu.

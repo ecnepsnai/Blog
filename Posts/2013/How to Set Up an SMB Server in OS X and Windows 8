@@ -1,0 +1,163 @@
+Say you just upgraded from a Windows computer to a shiny new Mac. You're quite excited, and after the euphoria of hearing the start-up sound for the first time has worn off you realize that you're faced with quite a daunting task: "How do I move my files from my Windows computer to my Mac?" You could use a flash drive, but those are slow and have space restrictions. A external hard drive? Sure, but it needs to be formatted as FAT 32, which has size restrictions. But what if I told you that you can move files between computers using just your Internet connection?
+
+<!--more-->
+<h2>Screencast</h2>
+<figure class="post-image"><iframe width="601" height="338" src="http://www.youtube.com/embed/ayECCtgc-5I" frameborder="0" allowfullscreen></iframe><br />How to Set Up an SMB Server in OS X and Windows 8</figure>
+
+<h2>smb://</h2>
+
+Just what the heck is a Samba or SMB server anyways? Well, a Server Message Block is just the protocol that defines how information is sent between two computers. Much like the Hyper Text Transfer Protocol, or <code>http://</code>, it lets the computers send and receive information between each other without conflict. Think of it like a phone call. The protocol that is used to transfer information between the two people speaking on the ends is just the language they are using.
+
+
+Lets break down what makes up a Samba URL:
+
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/02/Samba_URL.jpg" alt="A normal Samba URL" /><br />A normal Samba URL.</figure>
+
+<ol>
+<li><strong>smb://</strong> This defines the protocol used.</li>
+<li><strong>ian</strong> The username for this session.</li>
+<li><strong>secret</strong> The password for that user.</li>
+<li><strong>192.168.1.102</strong> The location that will be contacted.</li>
+</ol>
+
+To put that request in words, you're saying:
+
+<blockquote>Hey, 192.168.1.102. It's ian. My password is: secret. May I have permission to use your server?</blockquote>
+
+If all goes well, the server will respond with:
+
+<blockquote>Hey Ian, it's 192.168.1.102. Sure you can!</blockquote>
+
+<h2>Before We Start</h2>
+There are a couple of things we need to go over before we can start. Think of this as a 'Getting Started Checklist'.
+
+<ul>
+<li>The two computers must be on the same network.</li>
+<li>It does not matter if the computers are wireless or wired.</li>
+<li>Do not use file sharing on a public network</li>
+<li>Always password protect your files</li>
+</ul>
+
+Now that we've gotten that out of the way, lets get started!
+
+<h2>Configuring Your Computers.</h2>
+
+<h3>Configuring Windows</h3>
+
+This tutorial will cover how to set up folder sharing on Windows 8. The process is very similar for Windows 7 and Vista, but may differ for Windows XP and lower.
+
+<em>You will need to apply a password to your user to share files in Windows, if you already have a password set; skip to step 3</em>
+<ol>
+<li>Move your mouse to the top right corner to reveal the charms menu. Select the <em>Settings</em> button and click <em>Change PC settings</em>.</li>
+<li>Select <em>Create Password</em> and choose a new password.</li>
+<li>Move your mouse to the top right corner to reveal the charms menu. Select the Search button.</li>
+<li>Search for 'Computer'</li>
+<li>Right click on Computer and select <em>Properties</em></li>
+<li>Under 'Computer Name, domain, and workgroup settings' select <em>Change Settings</em></li>
+<li>Enter an administrator password if you're asked to at the UAC dialog</li>
+<li>Click the 'Change' below 'Network ID'</li>
+
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/02/Samba_WorkgroupSettings.jpg" alt="The Computer Name/Domain settings dialog." /><br />The Computer Name/Domain settings dialog.</figure>
+
+<li>Take note of the computer name and choose a workgroup name. This can be anything you like, I chose <code>ECNEPSNAI</code>, which is my name backwards</li>
+<li>Click <em>OK</em>, then <em>Apply</em>. You will be warned that you need to restart your computer. Save any open documents and restart your computer.</li>
+</ol>
+
+<h3>Configuring OS X</h3>
+
+<ol>
+<li>Click the Apple menu and select <em>System Preferences</em></li>
+<li>Select <em>Network</em> to open Network Preferences</li>
+<li>Click the <em>Advanced</em> button in the bottom right</li>
+<li>Go to the <em>WINS</em> tab</li>
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/02/Samba_WINS.jpg" alt="The WINS settings in OS X." /><br />The WINS settings in OS X.</figure>
+<li>Take note of the NetBIOS name and enter the same workgroup name as your set on your windows computer.</li>
+<li>Click <em>OK</em>, then <em>Apply</em>.</li>
+</ol>
+
+<h2>Connecting to OS X on Windows</h2>
+
+<ol>
+<li>Move your mouse to the top right corner to reveal the charms menu. Select the Search button.</li>
+<li>Search for 'Network'</li>
+<li>Click on <em>Network</em></li>
+<li>Under the Computers section your MacBook will appear with the name you chose when when configuring OS X (the NetBIOS name).</li>
+[tip]<strong>Tip:</strong> It may take a few seconds for your MacBook to appear. If it doesn't refer to the instructions below.[/tip]
+<li>Double click on your MacBook, you will be asked to enter a username and password. This is the username and password for your MacBook, not the Windows computer.</li>
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/02/samba_WindowsCred.jpg" alt="Enter your MacBook Pro login here." />
+Enter your MacBook Pro login here.</figure>
+<li>Once connected, you can now browse the files on your Mac.</li>
+</ol>
+
+<strong>If you don't see your Mac show up in Network, you can try a direct connection:</strong>
+<ol>
+<li>Press the Windows Key and tap R. The run dialog box appears</li>
+<li>Type in <code>\\</code> followed by the NetBIOS name of your Mac. For example: <code>\\MACBOOKPRO-10CC</code>.</li>
+<li>You can now browse the files of your Mac.</li>
+</ol>
+
+<h2>Connecting to Windows on OS X</h2>
+
+Once you've gotten everything set up you can connect to the other computer and begin sharing files. Connecting to a server on OS X is easy!
+<ol>
+<li>In Finder, select <em>Go</em> and <em>Connect to Server</em> (<strong>Command+K</strong>)</li>
+<li>On the Conntect to Server dialog, type in <code>smb://</code> followed by the name of the computer you wish to connect to</li>
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/02/smb_CTCDAG.png" alt="The Connect to Server dialog in OS X" /><br />The Connect to Server dialog in OS X</figure>
+<li>Click <em>connect</em>. You will be presented to enter a username and password, this is the password for the user on the computer you wish to connect to. Make sure to check "Remembver this password in my keychain"</li>
+<li>You will now be asked which folder to mount. By default, Windows will make the Users folder accessible, so you can mount that.</li>
+<li>You are now connected to that computer through smb!  You can access the files through the icon on your desktop or in any finder window.</li>
+</ol>
+
+<h2>Automatically Connect on Windows</h2>
+
+To have your computer automatically connect to your Mac at startup, you need to Map that drive. It's easy:
+<ol>
+<li>Open <em>Computer</em> in <em>File Explorer</em></li>
+<li>Bring down the Ribbon by clicking 'Computer' beside File at the top</li>
+<li>Click <em>Map Network Drive</em></li>
+<li>Expand the shared folders for your Mac. Select a folder and click <em>OK</em></li>
+<li>Make sure 'Reconnect at sign-in' is checked and click <em>Finish</em></li>
+<li>Now in My Computer, you can have quick access to your Mac as if it was a hard drive on your computer.</li>
+</ol>
+
+<h2>Automatically Connect in OS X</h2>
+
+If you Map the drive; Windows will automatically connect to your network drive when you log in, but OS X will not by default. To configure OS X to automatically connect to your network drive at log in:
+<ol>
+<li>Connect to the server if you have not already.</li>
+<li>Open the <em>User Preferences</em> pane in System Preferences.</li>
+<li>Select the <em>Login Items</em> tab.</li>
+<li>Drag the Network Drive icon from your desktop to the Login Items list to add it.</li>
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/02/smb_LGLITMS.png" alt="The Login Items settings in System Preferences." /><br />The Login Items settings in System Preferences.</figure>
+<li>Check the <em>Hide</em> box so it will connect in the background.</li>
+</ol>
+
+OS X Will now automatically connect and mount that network drive at login.
+
+<h2>Configuring Which Folders are Shared</h2>
+
+By default, OS X and Windows will grant access to your entire user directory any maybe a few others depending on your OS. If you need to, you share any folder on the list with only a few clicks.
+
+<h3>On Windows</h3>
+
+<ol>
+<li>Find the folder you wish to share as a drive, right click it and select <em>Properties</em></li>
+<li>Go to the <em>Sharing</em> tab and select <em>Advanced Sharing</em></li>
+<li>Check "Share this folder" and customize the name if you wish</li>
+<em>By default, you can't edit any of the files in this shared folder unless logged in. To change this:</em>
+<li>Click <em>Permissions</em></li>
+<li>Check <em>Full Control</em> under <em>Allow for Everyone</em></li>
+</ol>
+
+<h3>In OS X</h3>
+
+<ol>
+<li>Find the folder you wish to share as a drive, right click it and select <em>Get Info</em></li>
+<li>Check <em>Shared</em></li>
+</ol>
+
+Sadly, there isn't a way to hide that black notification bar alerting you that this folder is shared. Sorry!
+
+<h2>What's Next?</h2>
+
+Now that you have your computers talking to each other, what's next? One of the best things you can do if you use multiple computers is set up a local file server that you can store all of your pictures, movies, music, and documents on so that you don't need to worry about multiple copies. If you're a developer, you can set up a local Git or SVN server to keep track of your progress and roll back if you need to. But most importantly, sharing big files between computers is much easier now. No more need for a Flash Drive or DVDs.

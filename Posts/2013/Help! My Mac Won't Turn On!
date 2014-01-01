@@ -1,0 +1,171 @@
+The unthinkable has happened. Your $2,000 investment has decided to kick the bucket and not turn on. What do you do? Throw it out? Sell it as "slightly-used" online? Go and buy a new computer? No, because we have some great ways that can help bring your computer back from the dead.
+
+<h2>Run Through the Basics</h2>
+
+<blockquote>Did you try turning it on and off again?</blockquote>
+
+There’s a reason why tech support agents ask you the most basic troubleshooting questions when you call them: 90% of these problems can be solved by just double checking that the power cord is plugged in and sending power (desktop computers) or the battery is fully charged (laptop computers).
+
+It does seem mundane to have to check these, but cords come loose without you even knowing. Also, applications glitch and break. A simple restart may just be the solution to your problem.
+
+<h3>Send it to Apple</h3>
+
+If you’re computer isn’t turning on and you still have warranty, lets the pros at Apple fix your computer! You can set up a repair online, in an Apple Store, or through an Apple Authorized Retailer. This tutorial is more aimed at Mac users with products that are out of warranty. Even then though, a stop by the Genius Bar is usually a sure-fire way to figure out what’s wrong with your machine.
+
+<h2>Hardware Issues</h2>
+
+Hardware refers to the physical components of your computer. These include your processor, hard drive, keyboard, speakers, etc. Hardware issues are usually more expensive and harder to fix, but they are less common than software issues. Unlike software issues, your computer will tell you what piece of hardware is actually causing the problem through a service called the Power-on-self-test or POST for short.
+
+Almost every electronic device has a POST sequence, computers especially. The POST sequence verifies that all of the hardware components are working properly before the software loads. If something is not working, the POST will send a signal to your computers built-in speaker and alert you. The alerts are:
+
+<h3>1 Beep: No RAM Installed</h3>
+
+When your computer runs through the POST sequence, it checks to see if any RAM is installed on the machine. If no RAM is detected it will throw a 1 beep, “No RAM installed” error. Your repair options are pretty simple: make sure you have RAM installed on your machine.
+
+If you do have RAM installed properly and are receiving this error: your motherboard may be faulty and not detecting the RAM.
+
+<h3>2 Beeps: Incompatible RAM Types</h3>
+
+This is one of the more common POST errors, and usually happens after the RAM has been upgraded in your machine. When you get a two beep error your computer is telling you: “There is RAM and it is properly installed, but I can’t use it”. Make sure you purchased the correct type of RAM for your computer. If you still have them, install the stock RAM chips that came with your computer.
+
+For help in this area, take a look at our tutorial on how to install RAM on a MacBook Pro.
+
+<h3>3 Beeps: No Good Banks</h3>
+
+This is another common POST error, meaning that the RAM installed on your computer isn’t properly seated in the tray, and thus not communicating with the motherboard properly. Make sure that the RAM was installed properly on the motherboard, and that the connection diodes are not dirty or broken.
+
+<h3>4 Beeps: No Good Boot Images</h3>
+
+This dreaded “4 beep” POST error is thrown when the computer cannot read the software information properly from the hard-drive, usually the result of a hard-drive crash. However, that isn’t always the case. Try to boot your computer into Safe Mode. If you can, it’s probably a corrupt update. Backup your data and reinstall OS X.
+
+<h3>5 Beeps: Processor is Not Usable</h3>
+
+The processor is the most important part of the computer, without it nothing can be done. Put simply, getting a five beep warning is very bad. This is caused when the motherboard cannot properly communicate with the CPU due to a whole pile of problems. Most of the time, it’s easier to get a new computer. If you own a MacPro: Make sure your heatsink is properly installed and the fan is operational.
+
+<h3>No Beeps: Possible Power Issue</h3>
+
+No beeps can mean that the POST sequence found no hardware faults, or it never ran due to a power issue. On laptops, if the laptop battery is severely drained, the POST sequence may not run. On desktops, if the power supply unit isn’t connected to all of the motherboard terminals, the POST sequence will not run.
+
+[tip]<strong>Warning:</strong> Some of the solutions to POST errors can void your warranty. If you still have any warranty, let the pros at Apple fix your computer![/tip]
+
+<h2>Resetting NVRAM</h2>
+
+Your computer stores special settings that are required for boot in a sector of your RAM called NVRAM. On PCs: these settings can modified in the BIOS, which can lead to improperly configured settings. OS X doesn’t give you direct access to these settings, but they can become corrupted just like those of a PC.
+
+In certain cases, when the NVRAM is corrupted, your computer won’t power on. And because this isn’t a hardware problem, no POST error is thrown. You can easily reset your NVRAM settings with a simple key command while booting.
+
+<ol>
+<li>Completely shut down your computer.</li>
+<li>Using the built-in keyboard (laptops only), find the <strong>Command</strong>, <strong>Option</strong>, <strong>P</strong>, and <strong>R</strong> keys and get ready to press all of them.</li>
+<li>Power on your computer and press all of the keys mentioned above (<strong>&#8984;+⌥+P+R</strong>)</li>
+<li>Continue holding these keys down until the computer restarts and you hear the boot tone again.</li>
+<li>Release the keys.</li>
+</ol>
+
+Once the computer has powered on, you will have to reconfigure most of the settings inside System Preferences as they have been reset.
+
+<h2>Resetting the SMC</h2>
+
+The System Management Controller is an important piece of software that manages some of your computer’s hardware. This includes, but isn’t limited to: fans, speakers, lights, SD card readers (if applicable), and power. It isn’t recommended that you reset the SMC for simple problems like a frozen application or operating system. However, if the problem is recurring resetting the SMC may be the only good solution to the problem.
+
+<h3>Laptops</h3>
+
+<ol>
+<li>Shut down the computer completely.</li>
+<li>Plug in your AC adapter and make sure it’s delivering power.</li>
+<li>Using the built-in keyboard, press and hold the <strong>Left Shift, Command, Option</strong> and <strong>Power Button</strong> at the same time.</li>
+<li>Release all the keys at the same time.</li>
+<li>Press the power button to power on your computer.</li>
+</ol>
+
+<h3>Desktops</h3>
+
+<ol>
+<li>Shut down the computer completely.</li>
+<li>Unplug the power cord.</li>
+<li>Leave it unplugged for at least 15 seconds.</li>
+<li>Reattach the power cord.</li>
+<li>Wait at least 5 seconds.</li>
+<li>Power on your computer.</li>
+</ol>
+
+[tip]<strong>Tip:</strong> If your computer was built before 2009, please refer to Apple’s Support Documentation for out of date products, as the process is different.[/tip]
+
+<h2>Safe Booting Into Safe Mode</h2>
+
+Software refers to the programs your computer runs, from your Internet browser to your operating system. The purpose of software is to create a link between the user and the hardware. However, the software and hardware aren’t a match made in heaven and files can become corrupted, preventing you from booting. A quick and easy way to find software issues with your computer is to boot into safe mode.
+
+To put it simply, Safe Mode only loads the files required for normal system operation. Things like customized themes or application extensions may not work properly when you’re in safe mode because a required component may not be loaded. Safe mode also scans the directories within your hard drive for errors.
+
+To boot your computer into safe mode:
+
+<ol>
+<li>Turn your computer completely off.</li>
+<li>Using the built-in keyboard (laptops only) press and hold the <strong>Shift</strong> key.</li>
+<li>Power on the computer.</li>
+<li>Continue holding the <strong>Shift</strong> key until the Apple logo appears.</li>
+<li>Release the <strong>Shift</strong> key.</li>
+</ol>
+
+Once in safe mode, look for problematic applications or services that are causing the failed normal boot.
+
+<h2>Access the Recovery Partition</h2>
+
+Apple stopped shipping recovery DVDs with their products a while ago, and while that may seem like a bad thing, it really isn’t. Your Mac has an extra partition on its hard drive that’s dedicated for recovery tools. This is the Recovery HD. From the Recovery HD, you can reinstall OS X, access Disk Utility to manage your disks, or get help documentation if you can’t boot.
+
+<figure class="post-image">
+<img src="http://ianspence.com/blog/wp-content/uploads/2013/09/bootfail_OSXUTIL.jpg" alt="The OS X Recovery application gives you the power to fix your mac if it won’t turn on" />
+The OS X Recovery application gives you the power to fix your mac if it won’t turn on
+</figure>
+
+To access the Recovery HD:
+
+<ol>
+<li>Power off your computer completely.</li>
+<li><em>If you have FileVault enabled:</em> Press and hold the <strong>Command</strong> and <strong>R</strong> key and power on your computer.</li>
+<li><em>If you don’t have FileVault enabled:</em> Press and Hold the <strong>Option</strong> key and power on your computer. Use the arrow keys to select Recovery HD.</li>
+</ol>
+
+<h3>Recovery HD: Verify and Repair Disk</h3>
+
+A common problem with hard drives is disk structure. This can lead to issues that include booting. Thankfully, OS X’s Disk Utility can verify and repair disk structure problems for you.
+
+<ol>
+<li>Boot into the Recovery HD</li>
+<li>Open Disk Utility.</li>
+<li>Select “Macintosh HD” in the left sidebar</li>
+<li>Click “Verify Disk” in the bottom right.</li>
+<li>If any problems come up, click “Repair Disk” and OS X will try to fix them.</li>
+</ol>
+
+<h3>Recovery HD: Reinstalling OS X</h3>
+
+Sometimes your operating system can become corrupt, and not boot or operate normally. Because OS X is a UNIX style system, you can reinstall the OS without losing your personal data. To do this, you will need an active Internet connection and about 2 hours.
+
+<ol>
+<li>Boot into the Recovery HD</li>
+<li>Connect to a WiFi or Wired Network</li>
+<li>Select Reinstall OS X</li>
+</ol>
+
+<h3>Recovery HD: Erasing the Hard Drive</h3>
+
+If your hard-drive has become seriously corrupted, you may need to format it completely and start fresh. This completely erases all data on the hard drive, including your files. Make sure you’ve backed up your data before formatting the drive.
+
+<ol>
+<li>Boot into the Recovery HD</li>
+<li>Connect to a WiFi or Wired Network</li>
+<li>Open Disk Utility</li>
+<li>Select Macintosh HD in the left side bar</li>
+<li>Goto the Erase Tab</li>
+<li>Leave the format at Mac OS Extended (Journaled)</li>
+<li>Click “Erase”</li>
+</ol>
+
+Once the drive is clean, refer to the above guide on how to reinstall OS X.
+
+[tip]<strong>Tip:</strong> Formatting your hard drive completely removes all data from it. This included your personal files. Make sure you’ve backed up the files you don’t want to loose.[/tip]
+
+<h2>When All Else Fails</h2>
+
+If you’ve exhausted all of the tips in this guide, and your computer is still not turning on. You unfortunately have a broken computer and may need to seek professional repair to get it back. Find a good local repair shop and have them take a look. It may be expensive, but it’ll often be cheaper than a new computer.

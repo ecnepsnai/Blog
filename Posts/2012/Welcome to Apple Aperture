@@ -1,0 +1,165 @@
+Aperture is a complete photography toolkit from Apple. This impressive app lets you import, organize, edit, and share your photos from a single application in a professional workflow. In this video, I will go over all of the features that Aperture has to offer.
+<!--more-->
+
+
+<h2>Screencast</h2>
+<figure class="post-image"><iframe width="601" height="338" src="http://www.youtube.com/embed/sllctUvN2WA" frameborder="0" allowfullscreen=""></iframe><br>Getting Started with Aperture</figure>
+<h2>The User Interface</h2>
+If you’ve used Apple iPhoto before, you will notice that the user interface is very similar to Aperture. At the top of the application is the toolbar, which holds the most important tools of the application. These tools also change behaviors, whether you have a photo selected or not.
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2012/10/aperture_toolbar.jpg" alt="One click access to the Inspector, Import, New, Name, Keyword, and Sharing tool." />
+One click access to the Inspector, Import, New, Name, Keyword, and Sharing tool.</figure>
+On the left side of Aperture, you have the Inspector window. This window is where you will be spending most of your time. The Inspector window is split up into three tabs: Library, Info, and Adjustments. If you don’t see the Inspector window just click the Inspector button in the toolbar.
+
+The Library tab holds all of the projects, albums, and other folders that you can organize your photos in. It also hold the Faces and Places tabs, where you can view all of the people in your photos, and put them on a map. If you have an iOS device with iCloud running on it, you can use Aperture as your default Photo Stream agent.
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2012/10/aperture_library.jpg" alt="The library view is the first tab in the Inspector window." />
+The library view is the first tab in the Inspector window.</figure>
+
+The Info tab lets you view and edit the Metadata of the photo. You can assign Authors, Titles, Tags, Descriptions, Copyright Data, and much more from the Info tab. You can also view information about the camera and lens that was used when the photo was created.
+
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2012/10/aperture_info.jpg" alt="The info tab is the second tab in the inspector window." />
+The info tab is the second tab in the inspector window.</figure>
+
+[tip]<strong>Tip:</strong> While you can view the data about the picture, you can’t edit all of it. You can, however, remove the data.[/tip]
+
+Under the adjustments tab, you have some really powerful photo adjustment tools that rival those in Photoshop. Aperture adds some stock adjustment tools for you the first time you run Aperture, but you can always add more from the “Add Adjustments” menu.
+
+When you have an image in full screen view, you can access the Crop, Straighten, Healing Brush, and Red Eye Removal tool from the buttons on the bottom.
+
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2012/10/aperture_adjustments.jpg" alt="The adjustments tab is the last tab in the inspector window." />
+The adjustments tab is the last tab in the inspector window.</figure>
+
+
+<h2>Importing Photos</h2>
+Aperture comes built in with a photo importing tool that is very similar to the Photo Capture tool built in to OS X. Insert your memory card or plug in your camera and the importing tool should load right away. If not, click the import button in the tool bar. You can quickly check and uncheck photos to make sorting easier. You can stack photo to select a group of photos by selecting pictures and selecting “Stack Photos” from the right click menu.
+
+On the right side, you have the importing settings. You can have Aperture automatically add metadata when importing images by editing the values in the list. If you take your pictures in RAW format, you can change how Aperture handles the files.
+You can add even more information to the photos from the Metadata drop-down menu.
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2012/10/aperture_import.jpg" alt="The importing tool shows all the pictures on your media device, letting you choose which pictures to import." />
+The importing tool shows all the pictures on your media device, letting you choose which pictures to import.</figure>
+
+If you want, you can use Aperture as the default agent for Apple’s Photo Stream that links your phone with your computer. To set up Photo Stream on Aperture open the preferences and go to the Photo Stream tab. Log in to your Apple Account and Aperture will download all the pictures from your photo stream to your computer. To import them into your library, just drag and drop them on to a project.
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2012/10/aperture_photostream.jpg" alt="The Photo Stream preferences in Aperture." />
+The Photo Stream preferences in Aperture.</figure>
+[tip]<strong>Tip:</strong> You may want to disable “Automatic Upload” if you take a lot of high-resolution photos or your Internet connection is slow.[/tip]
+
+
+<h2>Organizing Photos</h2>
+When you import your photos into Aperture, you put them into a new project. Think of a project like a folder on your computer. You can move photos around, delete some, add some, and have as many as you like.
+
+One of the best ways to organize photos in Aperture is to use flags. Open a photo in fullscreen and use the arrow keys to navigate. Hit the “/” key to flag or unflag a photo. I like to go through the pictures and flag the those that I want to edit, leaving the non-flagged photos to stay in my library.
+
+Next, switch to grid view and filter out the pictures to only show flagged images. Click the “Magnifying” drop-down button and click “Flagged”. This will only show flagged pictures, and hide those that aren’t. To go back, click the clear button in the search box.
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2012/10/aperture_search.jpg" alt="The search menu dropdown." />
+The search menu dropdown.</figure>
+[tip]<strong>Tip:</strong> You can create your own search using the “Advanced Search” button to the left of the search menu drop down button.[/tip]
+
+
+<h2>Faces</h2>
+Aperture has a really nifty way of sorting pictures using both the people that are in them and the places where they were taken.
+
+The faces tab lets you organize pictures based off of the people within them. Using the name tool, you can tag faces in photos and Aperture will automatically find similar faces using a complex algorithm. You can confirm or deny proposed similar faces from the ‘Confirm Faces’ menu under the Faces tab.
+
+Using the “Name” tool in the toolbar, select faces and give them names from your Address Book. If Aperture missed a face, draw one out using the “Add Missing Face” button. Go to the “Faces” tab in the Library to see all of your faces.
+
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2012/10/aperture_faces.jpg" alt="The faces tab lets you organize photos using the people within them." />
+The faces tab lets you organize photos using the people within them.</figure>
+Double click on a face to show all of the pictures that person has been tagged in. You can confirm face suggestions by clicking the “Confirm Faces” button at the bottom. When confirming faces, clicking or selecting photos will confirm them. Holding down the <strong>Option</strong> key and clicking or selecting will deny the face. If a suggestion isn’t a face at all, right click the photo and select ‘Not a face’.
+
+If you need to remove a tag after you’ve confirmed it, open that photo and use the “Name” Tool. Now click the “Clear” button on the tag you want to remove.
+
+
+<h2>Places</h2>
+Another great way to organize your photos is to use Places. Most high-end cameras and smart phones have a built in GPS that marks the location of each picture when it was taken. Aperture lets you browse all of your photos by where they were taken by putting them on a map. You can access the map by going to the Places tab in the library.
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2012/10/aperture_places.jpg" alt="The “Places” tab lets you organize photos by where they were taken." />
+The “Places” tab lets you organize photos by where they were taken.</figure>
+Photos that were recorded with location data will automatically appear on this map, but you can manually add location data to photos from the “Info” tab by clicking the “Show Map” button at the bottom.
+
+
+<h2>Editing Photos</h2>
+Aperture has a powerful suite of built in editing tools. These tools can help you take your images from average to amazing with just a few clicks! By default, Aperture loads a few adjustments into the adjustments panel to help get you started. However, these controls can be a bit basic, so if you want to go deeper into your editing, you can add more adjustments from the “Add Adjustment” menu.
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2012/10/aperture_addadj.jpg" alt="The “Add Adjustment” menu." />
+The “Add Adjustment” menu.</figure>
+[tip]<strong>Tip: </strong>Don’t forget to add your adjustments to the default set if you want quick access to them each time you edit a photo. Click the cog on the adjustment and select “Add to default set.”[/tip]
+
+If you need to touch up problem areas on skin, you can do that right from Aperture using the Skin Retouch tool. Click the Brushes tool on the bottom menu and click Retouch, then just brush your problems away.
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2012/10/aperture_brushes.jpg" alt="Adjustments can be brushed on selectively." />
+Adjustments can be brushed on selectively.</figure>
+If you want, you can edit your photos in an external editor such as Adobe Photoshop. To enable this feature, go into Aperture’s settings and select the “Export” tab. Now choose Photoshop as your external editor. When you right click a photo, you can choose to open it in Photoshop.
+
+<h2>Sharing Photos</h2>
+Aperture has quite a few different options for exporting and sharing your photos. Let’s look at what each does and how it works.
+<h3>Flickr</h3>
+<a href="//flickr.com/">Flickr</a> is a popular social network centered around photography. Aperture has support for posting and gathering photos from your Flickr account right in the application. To share photos on Flickr, you first must authorize Aperture to use your account.
+
+Go to Aperture’s Preference and choose the “Web” Tab. Click the “+” button to add a new account. Sign into your Flickr account and select “Ok, I’ll authorize it.” Aperture will automatically start downloading your photos into your albums. To share photos, just select the pictures you want to share and click the share button in the toolbar. Aperture will automatically name your set and choose a file size for you.
+
+[tip]<strong>Tip:</strong> Keep in mind that Aperture will resize your pictures for you if you don’t have a Pro account on Flickr.[/tip]
+
+You can change any of these settings to better suit your needs, but usually the default settings are just right. Click “Share Photos” and Aperture will start uploading your photos to Flickr. Depending on how large these pictures are and how many you took, they may take a while to upload.
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2012/10/aperture_flickr.jpg" alt="The Flickr sharing menu in Aperture." />
+The Flickr sharing menu in Aperture.</figure>
+<h3>Facebook</h3>
+Much like Flickr, Aperture has built in support for <a href="//facebook.com">Facebook</a>. To share your photos on Facebook, you first need to sign into your Facebook account.
+
+Go to Aperture’s Preference and choose the “Web” Tab. Click the “+” button to add a new account. Sign in to your Facebook account. Aperture will automatically start downloading your photos into your albums. To share photos, just select the pictures you want to share and click the share button in the toolbar. Aperture will automatically name your album and choose a privacy filter.
+
+Click “Share Photos” and Aperture will start uploading your photos to Facebook. Depending on how large these pictures are and how many you took, they may take a while to upload.
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2012/10/aperture_facebook.jpg" alt="The Facebook sharing menu in Aperture." />
+The Facebook sharing menu in Aperture.</figure>
+<h3>Shared Photo Streams</h3>
+In iOS 6, Apple added Shared Photo Streams, a way to share pictures with other iCloud members on all of their devices. In Aperture, you can share your photos with your friends and family on all of their devices using a Shared Photo Stream.
+
+Unlike Facebook and Flickr, this requires no setup if Aperture is already the default Photo Stream agent. Just select your photos and choose “Photo Stream” from under the share menu, enter the email address of the people you want to share the photos with and Click Share. You can also choose to make this a public iCloud album, giving you a URL that you can share with non-iCloud members.
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2012/10/aperture_sharestream.jpg" alt="The Photo Stream sharing menu in Aperture." />
+The Photo Stream sharing menu in Aperture.</figure>
+<h2><span>Sharing Photos:</span> Photo Books</h2>
+If you own a web page, you can create an online gallery for your photos. Select your photos and choose “Web Page” from under the New menu.
+
+Set a title for your page and choose a theme. Click “Choose Theme” to load the page editor.
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2012/10/aperture_book.jpg" alt="The Photo Book creation menu in Aperture." />
+The Photo Book creation menu in Aperture.</figure>
+Drag and drop pictures from the film strip onto the boxes in the editor to place pictures in them. Click on text boxes to change the values. When you’re finished, you can have the book printed.
+<h3>Web Pages</h3>
+If you own a web page, you can create an online gallery for your photos. Select your photos and choose Web Page from under the New menu.
+
+Set a title for your page and choose a theme. Click 'Choose Theme' to load the page editor.
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2012/10/aperture_webpage.jpg" alt="The Web Page creation menu in Aperture." />
+The Web Page creation menu in Aperture.</figure>
+Your pictures will automatically fill the page. All you have to do is edit the text box values and re-arrange the pictures. If your pictures have any metadata, it will show up on the page. Click “Export Web Pages” to save the site to your computer. Then, just upload the folder to your site and there you go, your own personal photo gallery online.
+
+[tip]<strong>Tip:</strong> If you don’t have a web site, you can use Apple’s iCloud shared photo stream to get an online photo gallery![/tip]
+<h2><span>Sharing Photos:</span> Movie Slidshows.</h2>
+You can create an HD movie slideshow of your photos that you can burn to a DVD or upload to YouTube right from Aperture. Select the photos you want to share, and choose “Slideshow” from under the “New” menu.
+
+Set a title and choose a transition style. Click “Choose Theme” to load the slideshow editor.
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2012/10/aperture_slidshow.jpg" alt="The Slideshow creation menu in Aperture" />
+The Slideshow creation menu in Aperture</figure>
+You can add music from under the “Music” tab on the right. And change the order from the ordering dropdown on the left. When you’re done, click “Export…” and choose a rendering size.
+
+[tip]<strong>Tip:</strong> The higher quality you choose, the larger the file will be and the longer it will take to export and upload.[/tip]
+<h2><span>Sharing Photos:</span> Exporting Photos</h2>
+If you need to access your photos outside of Aperture, you can export them from the Export window. Select the photos you want to export and right click one of them. Choose “Export” and select Version, Originals, or Metadata. Version is the current image, including adjustments. Original is the original image, straight from the camera. And Metadata is the information about the picture, like the Camera and Location information.
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2012/10/aperture_export.jpg" alt="The export dialog in Aperture has many features that can make exporting a lot more powerful." />
+The export dialog in Aperture has many features that can make exporting a lot more powerful.</figure>
+
+The exporting dialog is pretty straightforward. Simply choose a location and click Export. However, Aperture has some pretty neat features that you can use to make exporting a lot more powerful. Using the “Export Preset” menu, you can have Aperture resize the images and save them in a different file format automatically for you. The “Subfolder” format menu lets you store these photos in a folder within the directory you chose above. The “Name” format tool will make Aperture name your files with a name of your choice.
+You can edit any of the above presets by selecting “Edit” from the respective menu.
+
+<h2>Time Machine &amp; Aperture</h2>
+Time Machine is a wonderful backup tool for your Mac, but it doesn’t play too nice with Aperture and its huge library size. I recommend you change the frequency of Time Machine’s backups to once every three hours.
+
+Start by opening Terminal. To do this, enter “Terminal” into Spotlight or navigate to Applications - Utilities - Terminal.
+
+Next, copy and paste this command into terminal and press return to run the command:
+
+<code>sudo defaults write /System/Library/LaunchDaemons/com.apple.backupd-auto StartInterval -int 10800</code>
+
+As a security measure, Terminal will ask for your password.  Enter your password and the backup interval will be changed to every three hours.
+<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2012/10/aperture_timemachine.jpg" alt="Change Time Machine’s backup interval with this command." />
+Change Time Machine’s backup interval with this command.</figure>
+[tip]<strong>Tip:</strong> 10800 is three hours in seconds. You can change this to whatever value you wish. But be careful! Putting the value too low will cause backup stability issues.[/tip]
+
+<h2>Conclusion</h2>
+As the cameras in phones continue to become higher quality, more and more people are starting to take an interest in photography. With its easy organizational features, powerful editing tools, and quick sharing methods, Aperture is a great tool for just about anybody that likes to take pictures.
+
+Whether you’re a professional photographer with an expensive DSLR, a hipster with your parents’ film camera, or just a hobbyist with a point-and-shoot, Aperture is a wonderful application and certainly a big step up from iPhoto. You can download Aperture from the <a href="http://itunes.apple.com/us/app/aperture/id408981426?mt=12&amp;ls=1">Mac App store</a>.

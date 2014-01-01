@@ -1,0 +1,135 @@
+Hard drives: they are one of the most important pieces of hardware in your computer, and also the source of most problems you will encounter. The hard drive is where all the data on your computer is stored, so when it stops working it can be a bit scary. In this tutorial, I will go over how a hard drive works, how to fix common hard drive problems, and end with a discussion on filesystems and how to use them.
+
+<!--more-->
+<h2>What is a hard drive?</h2>
+The hard drive is a piece of hardware inside your computer that stores all your data. This includes all of your documents, pictures, movies, music, applications, and even OS X itself. It is one of the most important parts of the computer and without it, you really couldn’t do anything. There are two types of hard drives out there: Hard Disk Drives (HDD) and Solid State Drives (SSD). Each have the same purpose, but they function in completely different ways.
+<h3>Hard Disk Drives</h3>
+The hard drive reads and writes data by changing the magnetic polarities on the drive. As the head passes over each section of the drive, any change in the magnetic direction will cause a voltage spike, creating a 1. If the magnetic direction is the same as the last, no voltage spike is caused and a 0 is created, thus creating binary data (or more commonly known as 1′s and 0′s).
+
+If you’re ever seen warnings to not put any magnets near computers, the reason is because of the hard disk drive. Putting a magnet near a HDD will cause the magnetic directions and cause your data to become corrupt.
+<h3>Solid State Drives</h3>
+Solid state drives are a lot more more confusing and advanced than hard disk drives. However, they are becoming more popular as more and more devices are going portable. For example, the MacBook Pro (Non-Retina) is the only laptop apple offers without Flash Storage.
+
+Unlike hard disk drives that rely on a spinning platter to deliver the data, solid state drives store binary data in the form of electrical charges inside transistors or gates. The presence of a charge produces a one and the absence of a charge produces a zero. Think of it as a bucket of water. If there is water in the bucket, that’s a 1. If there isn’t any water, it’s a 0.
+<h3>Which one is better?</h3>
+It really depends on what you’re looking for and how much you’re willing to spend. Hard disk drives are cheaper, and can hold way more data than solid state drives. However, they are much easier to damage; a simple jolt and your files are gone.
+
+Solid state drives have no moving parts, and therefore can be jostled around without any issues. They also read data faster than hard disk drives as there is no need to wait for the platter to spin up. However, they cannot hold as much data and cost a lot more.
+<h3>Fusion Drive</h3>
+Fusion Drive is a feature Apple introduced with the new iMac released late this year. To put it simply, the Fusion Drive is a mixture of both a solid sate and a hard disk drive. The computer has two separate drives, but you only see it as one. OS X automatically decides which drive to store the file on depending on how much you use it.
+<h2>Hard Drive Permissions</h2>
+Did you know that there are files and folders on your Mac that you can’t access? Even if you’re the administrator? It’s true. Although, that doesn’t mean you can’t just unlock them. But they are locked for a reason. File permissions allow you to control who can do what, and where. Think of them like a special door. Some people can go in and out, some can only go in, and others can’t enter at all.
+
+File Permissions let you set specific rules for groups or even specific users, restricting their right to read and/or write files within a folder. However, as silly as it may seem, OS X can actually lose permission to use a folder or file, causing weird problems. Thankfully OS X makes it really easy to fix permission errors by using the Disk Utility tool.
+
+<figure class="post-image"><img alt="The Disk Permissions Tools inside Disk Utility." src="http://ianspence.com/blog/wp-content/uploads/2013/02/HardDrive_Permissions.png" />
+The Disk Permissions Tools inside Disk Utility.</figure>To Verify and Repair Disk Permissions Errors:
+<ol>
+	<li>Open Disk Utility (try Spotlight or the Utilities group in Launchpad if you can’t find it)</li>
+	<li>Select <em>Macintosh HD</em> in the left hand pane</li>
+	<li>Click <em>Verify Permissions</em></li>
+	<li>Once complete, if any errors come up it will tell you in the log. Click <em>Repair Permissions</em> if there are any errors</li>
+</ol>
+But what happens when you click the <em>Repair Permissions</em> button? Noting too advanced, actually. OS X just scans the files and folders it needs to operate normally and makes sure they have full access to them. If not, it gives itself access. Repairing permissions doesn’t do anything to your personal data and poses no risk to you.
+[tip]<strong>Tip:</strong> Whether or not repairing permissions is useful is a constant argument in the Mac community. Check out Gruber’s “<a href="http://daringfireball.net/2006/04/repair_permissions_voodoo">Seriously, ‘Repair Permissions’ Is Voodoo</a>” for a critique of this action.[/tip]
+<h2>Hard Drive Health</h2>
+Over time, your hard drive will degrade in health and eventually fail to operate. This is a completely normal part of the hardware life cycle. However, there are some things you can do to tack on extra years to your hard drive.
+<blockquote>Smart people use S.M.A.R.T!</blockquote>
+Your hard drive comes built in with a doctor, which can anticipate problems before they happen and let you know with a mass of warning messages. The <em>Self-Monitoring, Analysis and Reporting Technology</em> will run through a lengthy check list to make sure your drive is up to snuff each time you turn it on.If it fails, it lets you know so you can replace/repair the drive right away. <a href="http://en.wikipedia.org/wiki/S.M.A.R.T.#Known_ATA_S.M.A.R.T._attributes">Wikipedia has the full list</a> of problems S.M.A.R.T scans for and what they mean.
+
+<figure class="post-image"><img alt="The Disk Verification Tools inside Disk Utility." src="http://ianspence.com/blog/wp-content/uploads/2013/02/HardDrive_Verify.png" />
+The Disk Verification Tools inside Disk Utility.</figure>To Verify the health of your hard drive:
+<ol>
+	<li>Open Disk Utility</li>
+	<li>Select <em>Macintosh HD</em> in the left hand pane</li>
+	<li>Click <em>Verify Disk</em></li>
+	<li>Once complete, if any errors come up, it will tell you in the log. Click <em>Repair Disk </em>if there are any problems.</li>
+</ol>
+<h2>The Pros and Cons of Caching</h2>
+Caching (pronounced “cash-ing”) is the process of storing commonly used files for quick access. This is method is commonly used for web content. Your web browser will cache files that are used on web pages and store them on your hard drive. Accessing a file from your hard drive is much faster than downloading it from a server every time. Your computer does the same with the files on your hard drive. To help speed up Finder, OS X caches the contents of your hard drive for fast access. However, things can sometimes go awry and the cache may become corrupt.
+<h3>Cleaning the Cache</h3>
+Cleaning the cache on your computer is not something that should be done often, nor is it a method used to help speed up your computer. In fact, it will slow down your computer for a bit.
+
+However, a lot of hard drive problems can be solved by cleaning the cache because you’re forcing OS X to reload the fresh files from the hard drive, rather than the cache. Cleaning the cache on OS X isn’t hard, but it requires the use of some an app like Mountain Lion Cache Cleaner. You can get a free trial of MLCC at <a href="http://www.northernsoftworks.com/support.html">Northern Softworks</a>.
+
+Once you’ve downloaded and installed the app, open Mountain Lion Cache Cleaner and select <em>Demo</em>. If you use MLCC often I recommend you support Northers Softworks and pick up a license.
+
+<figure class="post-image"><img alt="The Cache Cleaning page in Mountain Lion Cache Cleaner." src="http://ianspence.com/blog/wp-content/uploads/2013/02/HardDrive_Cache.png" />
+The Cache Cleaning page in Mountain Lion Cache Cleaner.</figure>Select <em>Cache Cleaning</em> on the sidebar. Select <em>Deep Cleaning</em> and click all the check boxes. Click <em>Clean</em>. During the cleaning, you will not be able to use your computer for a couple of hours, as the process may take a long time.
+
+When the process is done, make sure you reboot if the software didn’t do it for you. This is really important! Once rebooted, load up Disk Utility and try to repair the disk using the steps above.
+<h2>Defragmenting Hard Drives</h2>
+Fragmenting is an internal phenomena that is caused by your hard drive becoming disorganized with which sectors the files are written to. Over time, hard drives will become fragmented and eventually eat up unnecessary space.
+
+Mac OS X has built-in protection against fragmentation that will automatically attempt to defragment data blocks in the background without needed an external application. Because of this, you should never need to defragment your computer.
+
+If however, your computer has become heavily fragmented due to a software issue, you can defragment it using Coriolis Systems: <a href="http://www.coriolis-systems.com/iDefrag.php">iDefrag</a>.
+
+[tip]<strong>Warning:</strong> If you have a solid-state hard drive, such as those included in the MacBook Pro with Retina Display, Macbook Air, or Winter 2012 iMac, do not attempt to defragment your hard drive. Defragmentation on solid-state hard drives can cause severe damage to the drive.[/tip]
+<h2>Hard Drive Formatting</h2>
+OS X, Windows, and Linux all use different hard drive formatting for normal system operations. A hard drive format refers to how the operating system stores the data on the drive. There are three common filesystems that are used today: HFS+, NTFS, and FAT32.
+
+Mac OS X uses HFS+, Windows uses NTFS and used to use FAT32. However, not all of these filesystems are compatible with every operating system. Below is a chart that highlights which filesystem works with which operating system:
+<table>
+<thead>
+<tr>
+<th></th>
+<th>NTFS</th>
+<th>HFS+</th>
+<th>FAT32</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Microsoft Windows</strong></td>
+<td>Read and Write</td>
+<td>Read only</td>
+<td>Read and Write</td>
+</tr>
+<tr>
+<td><strong>Mac OS X</strong></td>
+<td>Read only</td>
+<td>Read and Write</td>
+<td>Read and Write</td>
+</tr>
+</tbody>
+</table>
+* Note: Through the use of <a href="http://osxfuse.github.com/">OSXFUSE</a> one can enable NTFS write on OS X, however doing so may cause stability issues.
+<h3>Fat32?</h3>
+Now, you’re probably thinking to yourself: If FAT32 works on both systems, why don’t we use it as default? Although FAT32 is cross compatible, it has limitations on the size of each file. While FAT32 can have large capacities, it can’t have files larger than 4GB on the disk, even if your drive is larger than 4GB. The File Allocation Table was designed in the late 1970s for use on Floppy Disks and at the time files over 4GB just didn’t exist. However as computers grew more powerful the FAT system become out of date. However, because it is cross operating system compatible it is still widly used today. FAT32 is most commonly seen in Removable Storage such as Flash Drives. Flash Drives come with FAT32 by default but if you only need to use it on a Mac you can format it to HFS+ for better speed and no limit on the file size.
+<h3>Formatting a Drive in Disk Utility</h3>
+Disk Utility lets you format your drive using many filesystems like the three listed above. To format a drive in Disk Utility:
+<ol>
+	<li>Open Disk Utility</li>
+	<li>Select the mounted drive on the left hard side bar</li>
+	<li>Go to the <em>Erase</em> tab</li>
+	<li>Choose a hard drive format. <em>Note: Mac OS Extended (Journaled) is HFS+.</em></li>
+	<li>Click <em>Format</em></li>
+</ol>
+[tip]<strong>Note:</strong> Formatting your hard drive will permanently erase all of the data on it. Make sure you have backed up your data before formatting or else you won’t be able to get it back.[/tip]
+<h2>Formatting the Macintosh HD</h2>
+If your computer has encountered a serious software issue, and you need to completely wipe the drive and reinstall OS X, you can do so through Disk Utility in Recovery Tools. Please note that this differs form the Disk Utility used in normal system operation.
+
+Before formatting your drive make sure that:
+<ul>
+	<li>You have backed up all of your files! Formatting will erase all data on the drive</li>
+	<li>You have at least 3 hours of time where you can handle not using your computer</li>
+	<li>You have a stable, wired or wireless Internet connection</li>
+</ul>
+<h3>Format the Machintosh HD with Recovery Tools</h3>
+<ol>
+	<li>Power off your computer completely.</li>
+	<li><em>If you have FileVault enabled,</em> press and hold the <strong>Command</strong> and <strong>R</strong> keys and power on your computer.</li>
+	<li><em>If you don’t have FileVault enabled,</em> press and hold the <strong>Option</strong> key and power on your computer. Use the arrow keys to select <em>Recovery HD</em>.</li>
+	<li>Open Disk Utility from the welcome screen</li>
+	<li>On the left side of Disk Utility, you will see the drives installed on your computer. You will see the physical drive that holds Macintosh HD (Red), and Macintosh HD itself (Blue). Select the parent drive.</li>
+<figure class="post-image"><img alt="Example of a Child Parent relationship." src="http://ianspence.com/blog/wp-content/uploads/2013/02/HardDrive_PC.png" />
+Example of a Child Parent relationship.</figure>
+	<li>Select the <em>Erase</em> tab</li>
+	<li>Select <em>Mac OS Extended (Journaled)</em> for the format and name the drive “Macintosh HD”</li>
+	<li>Click <em>Erase</em></li>
+	<li>When it is complete, go back to the home screen of recovery tools and select <em>Install OS X</em></li>
+	<li>Complete the installation process</li>
+</ol>
+<h2>Conclusion</h2>
+The hard drive is a very important piece of hardware on your computer, without it you wouldn’t be able to do anything! I hope by reading this tutorial you will have a better understanding on how hard drives work, how to fix them, and what type of format to use.

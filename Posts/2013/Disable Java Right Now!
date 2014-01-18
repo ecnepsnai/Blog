@@ -1,8 +1,8 @@
-Java has quickly become one of the least secure application frameworks on the internet.  Regardless of how much or good your antivirus is, a good Java exploit can ruin your system and spread to other computers on a local network.  Very, <em>very</em>, few websites still use Java, so you can safely disable it without having problems.
+Java has quickly become one of the least secure application frameworks on the internet.  Regardless of how much or strong your antivirus is, a nasty Java exploit can ruin your system and spread to other computers on a network.  Very, <em>very</em>, few websites still use Java, so you can safely disable it without having problems.
 
 <!--more-->
 
-<h2>Google Chrome</h2>
+<h3>Google Chrome</h3>
 
 <ol>
 <li>In the Omnibox, type in <code>about://plugins</code> and press Enter</li>
@@ -10,15 +10,17 @@ Java has quickly become one of the least secure application frameworks on the in
 </ol>
 
 
-<h2>Safari</h2>
+<h3>Safari</h3>
 
 <ol>
 <li>Open Safari's Preferences and go to the Security tab</li>
 <li>Uncheck Enable Java</li>
 </ol>
 
+[tip]<strong>Note</strong>: Older versions of OS X included the Java Runtime, this is no longer the case[/tip]
 
-<h2>Firefox</h2>
+
+<h3>Firefox</h3>
 
 <ol>
 <li>Select Add-Ons from under the Tools menu</li>
@@ -27,7 +29,7 @@ Java has quickly become one of the least secure application frameworks on the in
 </ol>
 
 
-<h2>Opera</h2>
+<h3>Opera</h3>
 
 <ol>
 <li>In the address box, type in <code>opera://plugins</code></li>
@@ -35,10 +37,14 @@ Java has quickly become one of the least secure application frameworks on the in
 </ol>
 
 
-<h2>Internet Explorer</h2>
+<h3>Internet Explorer</h3>
 
 <ol>
 <li>Click the Cog/Gear button and select Manage Add-ons</li>
 <li>Select "Currently loaded add-ons" and choose "All add-ons"</li>
 <li>Find "Java Plug-in" and click Disable</li>
 </ol>
+
+<h2>But what if I need Java?</h2>
+
+If you absolutely NEED Java for a website I would recommend you download and install a secondary browser and enable Java in that, and only use that browser for that specific task.  For example, if you use Google Chrome as your primary browser: download and install Firefox and enable Java in it so you can use that one website.

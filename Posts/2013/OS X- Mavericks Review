@@ -8,9 +8,7 @@ Much like OS X Mountain Lion, Apple continues to make their operating system mor
 
 Let's be honest, iOS 6 was probably one of the worst updates for iOS, with the removal of both Google Maps and YouTube, people were very quick to attack Apple and never look back.  Yes, Apple Maps <a href="https://twitter.com/ecnepsnai/status/212951204379107329" target="_blank">has issues</a> but after the angry mob moved on to either different phones, or Google Maps, Apple Maps has been working hard.
 
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/10/mavericks_maps.jpg" alt="Apple Maps, running in OS X." />
-Apple Maps, running in OS X.
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/10/mavericks_maps.jpg"]Apple Maps, running in OS X.[/img]
 
 Now, don't get me wrong, Apple Maps are still nowhere near the quality of Google Maps, and they never will.  But that doesn't mean that the new Maps app isn't a great tool.  Maps on OS X is exactly what you would see on your iOS device.  Maps takes great use of the multi-touch gestures on your trackpad, making it a very easy to use Application that can come in handy when you need to quickly look up an address.
 
@@ -20,9 +18,7 @@ Now, don't get me wrong, Apple Maps are still nowhere near the quality of Google
 
 I never did use the iBooks app on my phone, as most of the books I read are online, or a physical book.  But the new iBooks app can be seen as a welcome new feature to some.
 
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/10/mavericks_ibooks.jpg" alt="The iBooks store" />
-The iBooks store
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/10/mavericks_ibooks.jpg"]The iBooks store[/img]
 
 The App is easy enough, copying the look of iTunes and the App Store, users can download books from the store, or import PDFs into their library.
 
@@ -32,9 +28,7 @@ The App is easy enough, copying the look of iTunes and the App Store, users can 
 
 Cows and Animal Rights Activists alike will be happy to hear the Calendar has finally grown out of that "leather" phase, and into a much cleaner look with the normal UI themes found in the rest of OS X.
 
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/10/mavericks_calendar.jpg" alt="Calendar sheds the leather for a clean new look" />
-Calendar sheds the leather for a clean new look
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/10/mavericks_calendar.jpg"]Calendar sheds the leather for a clean new look[/img]
 
 Along with the new look, Calendar gets a little better with built in Maps, Directions, and Weather.
 
@@ -44,9 +38,7 @@ Along with the new look, Calendar gets a little better with built in Maps, Direc
 
 Finding things just got a lot easier with the new Finder.  Tabs, Full screen, and Tags are just some of the major improvements to the file browsing application in OS X.  Finder has always been a exceptional file navigator, with hundreds of intuitive and smart features that just make it so much easier to get things done, or keep things organized.
 
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/10/mavericks_finder.jpg" alt="Finding things gets easier with Tabs" />
-Finding things gets easier with Tabs
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/10/mavericks_finder.jpg"]Finding things gets easier with Tabs[/img]
 
 Tabs in Finder work and look just like in Safari, even using the same Keyboard Shortcuts.  As somebody that is anal about file organization, this new feature has completely made the update worth it.  One thing I found very nice about Tags is that applications don't need to make any changes to support them, OS X directly added tag support right into the System Save Dialog.
 
@@ -62,9 +54,7 @@ Tabs in Finder work and look just like in Safari, even using the same Keyboard S
 
 With OS X Mavericks, Apple has said that they are taking Battery Life and Performance to the next level.  Apple has rebuilt their kernel to include something called Timer coalescing, which groups smaller operations together to allow the CPU more time to enter a low power state.  This feature has been included in Windows since Windows 7, has been known to save on battery life, but can cause a performance degradation in some cases.  To start things off, OS X includes a much better Activity Monitor, featuring an all new Energy tab which lets you see what applications are eating up your battery.
 
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/10/mavericks_activity.jpg" alt="The updated activity monitor" />
-The updated activity monitor
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/10/mavericks_activity.jpg"]The updated activity monitor[/img]
 
 Mavericks also includes a new features called App Nap, which will put applications that are out-of-sight into a low power state, restricting the amount of CPU and RAM it has access to.  Another welcome improvement to Mavericks is Memory Compression which compresses memory data to save space.  Opening a 14MB .TIFF in Photoshop CS6 uses around 40 fewer megabytes of RAM than it did on OS X Mountain Lion.  However, with all of these great new performance enhancing features, one important process did take a big hit, Startup.  My MacBook now takes an around 30 seconds longer to start up with a total time of 1 minute and 39 seconds.
 

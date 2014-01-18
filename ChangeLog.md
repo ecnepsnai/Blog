@@ -1,5 +1,10 @@
 #Change Log
 
+##Version 1.4
+
+ - **Fixed**: YouTube videos now have a central design and are responsive
+ - **Added**: Improved shortcodes for easier future design changes
+
 ##Version 1.3
 
  - **Added**: Added related posts to each post by the comments

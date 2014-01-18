@@ -22,6 +22,24 @@ Many web browsers will now help you understand the URL of the site you're on.  W
 <li><strong>/ (anything)</strong> anything after the forwards slash is no longer the domain, and just the path to the current page you're on.</li>
 </ul>
 
+So, for example:
+
+<table>
+<thead>
+<tr>
+<th>Url</th>
+<th>Valid</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>https://china.mail.google.com/ </td><td> Yes </td><td> Because China is a child of Mail, which is a child of Google.</td></tr>
+<tr><td>https://mail.google.com.china.com/ </td><td> No </td><td> Because the domain is China.com and mail.google.com is just a subdomain</td></tr>
+<tr><td>https://mail.google.com/china/ </td><td> Yes </td><td> Because china is not a part of the url, rather the file path</td></tr>
+<tr><td>https://mail.google.net/ </td><td> No </td><td> Because you're browsing to a different domain, google.net rather than google.com </td></tr>
+</tbody>
+</table>
+
 <h3>Checking URLs</h3>
 
 Remember how I said you should always check the URL before you login, even if you navigated to that site from a bookmark?  The reason is because malicious software can take control of your computer network connection and redirect all network traffic going to the correct site - to a phishing one.  For example: You have http://mail.google.com bookmarked, but the malicious software redirects you to http://mail.google.asia2.com/ however you didn't realize this redirection and didn't check the URL potentially comprimising your account.
@@ -30,10 +48,7 @@ Remember how I said you should always check the URL before you login, even if yo
 
 Hyperlinks, or anchors, are more commonly known as links.  They are text, buttons, or images that lead you to other parts of the internet.  However, where the link says it'll take you may not be the actual place you go.  For example, try clicking this link <a href="http://bing.com">Google</a>.  You expected to go to Google, but was brought to bing.  So how do you double check?  Your web browser will have you covered!  Move your mouse over the link and in the bottom right you will see a preview of where the link will actually take you.  Below is an example of a phishing email trying to get Guild Wars 2 accounts by using a fake link.
 
-<figure class="post-image">
-<img src="http://ianspence.com/blog/wp-content/uploads/2013/05/GW2.jpg" alt="Looks real enough, but can it be trusted?" />
-Even though both sites have "guildwars2.com" that doesn't mean it's actually linking to guildwars2.com.  It's actually taking you to acompletely differnt site: <strong>zh-rcx.asia</strong>!  www.guildwars2.com is just a subdomain of zh-rcx.asia.
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/05/GW2.jpg"]Even though both sites have "guildwars2.com" that doesn't mean it's actually linking to guildwars2.com.  It's actually taking you to acompletely differnt site: <strong>zh-rcx.asia</strong>!  www.guildwars2.com is just a subdomain of zh-rcx.asia.[/img]
 
 So remember, the real website is what comes before the "/" (not including the http:// or https://).
 
@@ -51,28 +66,33 @@ Let me introduce you to something called 2-step-authentication, and why you will
 
 2-step-authentication is a service that adds a second layer of protection to your account.  By not only requiring a password, but a unique and time-sensitive code thats either generated and texted, phoned, or displayed on your cell phone.  If both a correct password and correct code are entered, you gain access to your account.  So that means that even if somebody knows your password, they can't get in to your account without actually having your phone.  Both GMail and Outlook provide 2-step-authentication which means that even if you made the grave mistake of giving your password away to a phishing website, you're still secure.
 
-<figure class="post-image">
-<img src="http://ianspence.com/blog/wp-content/uploads/2013/05/2step.jpg" alt="Google's Two-Step Authentication System" />
-Google's Two-Step Authentication System
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/05/2step.jpg"]Google's Two-Step Authentication System[/img]
+
+<h3>Two Step Authentication on Twitter</h3>
+
+After public outcry for better security, Twitter has released their own Two-Step Authentication for accounts.  However, for business accounts this new feature is useless because its tied to just one single phone through either a SMS message or the Twitter app.  While this still is two-step authentication, its not the conventional use of it. To enable two step authentication:
+
+<ol>
+<li>Go to Twitter.com and click the gear in the upper right, select Settings</li>
+<li>Go to the Security Tab</li>
+<li>Select <em>Send login verification requests to the Twitter app</em></li>
+</ol>
+
+[img src="http://blog.ianspence.com/wp-content/uploads/2013/05/twitter_sms.png"]Enabling Two-Step Authentication in Twitter[/img]
+
+Now, whenever you try to login from a web browser, you will need to approve it in the Twitter app.  If you receive a random request when you aren't trying to login: deny the request and change your password immediately.
 
 <h3>Remove those dammed apps!</h3>
 
 Over time, more and more applications can become paired with your Twitter accounts.  Posting comments, downloading files, and other sites sometimes require you to "Sign In with Twitter" which authorizes their application to read and sometimes write changes to your account.  Meaning that even if you just took one small quiz a long time ago, that application may be able to post tweets without your permission or knowledge.  It's a good idea to go through your Authorized Apps and remove any applications you know you never use anymore.  To do this, go to your account settings and then the apps tab.
 
-<figure class="post-image">
-<img src="http://ianspence.com/blog/wp-content/uploads/2013/05/Spam.jpg" alt="Apps like these can't get your Twitter password, but can Tweet without your permission." />
-Apps like these can't get your Twitter password, but can Tweet without your permission.
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/05/Spam.jpg"]Apps like these can't get your Twitter password, but can Tweet without your permission.[/img]
 
 <h3>Update your software</h3>
 
 When a pot-hole forms in a road, the city sends crews to fix it.  Just like when security flaws are discovered, software developers publish updates to their applications that fixes the problem.  However a lot of software don't enforce updates, or apply them automatically.  That's why it's always a good idea to double check your software to make sure it's the latest version, and that you're not left in the dark.
 
-<figure class="post-image">
-<img src="http://ianspence.com/blog/wp-content/uploads/2013/05/secure.png" alt="YOU have an out of date browser!" />
-YOU have an OUT OF DATE browser.
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/05/secure.png"]YOU have an OUT OF DATE browser.[/img]
 
 <h2>What else?</h2>
 

@@ -22,8 +22,9 @@ Did you know that there are files and folders on your Mac that you can’t acces
 
 File Permissions let you set specific rules for groups or even specific users, restricting their right to read and/or write files within a folder. However, as silly as it may seem, OS X can actually lose permission to use a folder or file, causing weird problems. Thankfully OS X makes it really easy to fix permission errors by using the Disk Utility tool.
 
-<figure class="post-image"><img alt="The Disk Permissions Tools inside Disk Utility." src="http://ianspence.com/blog/wp-content/uploads/2013/02/HardDrive_Permissions.png" />
-The Disk Permissions Tools inside Disk Utility.</figure>To Verify and Repair Disk Permissions Errors:
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/02/HardDrive_Permissions.png"]The Disk Permissions Tools inside Disk Utility.[/img]
+
+To Verify and Repair Disk Permissions Errors:
 <ol>
 	<li>Open Disk Utility (try Spotlight or the Utilities group in Launchpad if you can’t find it)</li>
 	<li>Select <em>Macintosh HD</em> in the left hand pane</li>
@@ -37,8 +38,9 @@ Over time, your hard drive will degrade in health and eventually fail to operate
 <blockquote>Smart people use S.M.A.R.T!</blockquote>
 Your hard drive comes built in with a doctor, which can anticipate problems before they happen and let you know with a mass of warning messages. The <em>Self-Monitoring, Analysis and Reporting Technology</em> will run through a lengthy check list to make sure your drive is up to snuff each time you turn it on.If it fails, it lets you know so you can replace/repair the drive right away. <a href="http://en.wikipedia.org/wiki/S.M.A.R.T.#Known_ATA_S.M.A.R.T._attributes">Wikipedia has the full list</a> of problems S.M.A.R.T scans for and what they mean.
 
-<figure class="post-image"><img alt="The Disk Verification Tools inside Disk Utility." src="http://ianspence.com/blog/wp-content/uploads/2013/02/HardDrive_Verify.png" />
-The Disk Verification Tools inside Disk Utility.</figure>To Verify the health of your hard drive:
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/02/HardDrive_Verify.png"]The Disk Verification Tools inside Disk Utility.[/img]
+
+To Verify the health of your hard drive:
 <ol>
 	<li>Open Disk Utility</li>
 	<li>Select <em>Macintosh HD</em> in the left hand pane</li>
@@ -54,8 +56,10 @@ However, a lot of hard drive problems can be solved by cleaning the cache becaus
 
 Once you’ve downloaded and installed the app, open Mountain Lion Cache Cleaner and select <em>Demo</em>. If you use MLCC often I recommend you support Northers Softworks and pick up a license.
 
-<figure class="post-image"><img alt="The Cache Cleaning page in Mountain Lion Cache Cleaner." src="http://ianspence.com/blog/wp-content/uploads/2013/02/HardDrive_Cache.png" />
-The Cache Cleaning page in Mountain Lion Cache Cleaner.</figure>Select <em>Cache Cleaning</em> on the sidebar. Select <em>Deep Cleaning</em> and click all the check boxes. Click <em>Clean</em>. During the cleaning, you will not be able to use your computer for a couple of hours, as the process may take a long time.
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/02/HardDrive_Cache.png"]
+The Cache Cleaning page in Mountain Lion Cache Cleaner.[/img]
+
+Select <em>Cache Cleaning</em> on the sidebar. Select <em>Deep Cleaning</em> and click all the check boxes. Click <em>Clean</em>. During the cleaning, you will not be able to use your computer for a couple of hours, as the process may take a long time.
 
 When the process is done, make sure you reboot if the software didn’t do it for you. This is really important! Once rebooted, load up Disk Utility and try to repair the disk using the steps above.
 <h2>Defragmenting Hard Drives</h2>
@@ -123,8 +127,8 @@ Before formatting your drive make sure that:
 	<li><em>If you don’t have FileVault enabled,</em> press and hold the <strong>Option</strong> key and power on your computer. Use the arrow keys to select <em>Recovery HD</em>.</li>
 	<li>Open Disk Utility from the welcome screen</li>
 	<li>On the left side of Disk Utility, you will see the drives installed on your computer. You will see the physical drive that holds Macintosh HD (Red), and Macintosh HD itself (Blue). Select the parent drive.</li>
-<figure class="post-image"><img alt="Example of a Child Parent relationship." src="http://ianspence.com/blog/wp-content/uploads/2013/02/HardDrive_PC.png" />
-Example of a Child Parent relationship.</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/02/HardDrive_PC.png"]
+Example of a Child Parent relationship.[/img]
 	<li>Select the <em>Erase</em> tab</li>
 	<li>Select <em>Mac OS Extended (Journaled)</em> for the format and name the drive “Macintosh HD”</li>
 	<li>Click <em>Erase</em></li>

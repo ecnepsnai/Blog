@@ -113,10 +113,7 @@ Once in safe mode, look for problematic applications or services that are causin
 
 Apple stopped shipping recovery DVDs with their products a while ago, and while that may seem like a bad thing, it really isn’t. Your Mac has an extra partition on its hard drive that’s dedicated for recovery tools. This is the Recovery HD. From the Recovery HD, you can reinstall OS X, access Disk Utility to manage your disks, or get help documentation if you can’t boot.
 
-<figure class="post-image">
-<img src="http://ianspence.com/blog/wp-content/uploads/2013/09/bootfail_OSXUTIL.jpg" alt="The OS X Recovery application gives you the power to fix your mac if it won’t turn on" />
-The OS X Recovery application gives you the power to fix your mac if it won’t turn on
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/09/bootfail_OSXUTIL.jpg"]The OS X Recovery application gives you the power to fix your mac if it won’t turn on[/img]
 
 To access the Recovery HD:
 

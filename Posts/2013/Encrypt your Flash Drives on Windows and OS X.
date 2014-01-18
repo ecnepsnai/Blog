@@ -14,27 +14,18 @@ To encrypt a flash drive on Windows:
 <li>Open My Computer, right click your flash drive and select format</li>
 <li>Make sure the drive format is <code>Fat32</code> and <code>Quick Format</code> is checked</li>
 
-<figure class="post-image">
-<img src="http://ianspence.com/blog/wp-content/uploads/2013/09/encrypt_win_format.jpg" alt="Formatting your flash drive will remove all data that's on it, so make sure you backed up before!"><br>
-Format your flash drive will remove all data that's on it, so make sure you backed up before!<br>
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/09/encrypt_win_format.jpg"]Formatting your flash drive will remove all data that's on it, so make sure you backed up before![/img]
 
 <li>Format the drive.</li>
 <li>When the drive is finished formatting, right click it and select "Turn on BitLocker"</li>
 <li>Check <code>Use a Password to unlock the drive</code> and enter the desired password</li>
 
-<figure class="post-image">
-<img src="http://ianspence.com/blog/wp-content/uploads/2013/09/encrypt_win_enable.jpg" alt="Enabling BitLocker"><br>
-Enabling BitLocker<br>
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/09/encrypt_win_enable.jpg"]Enabling BitLocker[/img]
 
 <li>Click next, windows will begin to encrypt the drive.  This will take some time, however because we took all of the data off of the drive it will be faster than if we didn't</li>
 <li>When complete, the drive will be encrypted and you will need to enter a password every time you connect the drive.</li>
 
-<figure class="post-image">
-<img src="http://ianspence.com/blog/wp-content/uploads/2013/09/encrypt_win_unlock.jpg" alt="Enter your password to unlock your drive"><br>
-Enter your password to unlock your drive<br>
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/09/encrypt_win_unlock.jpg"]Enter your password to unlock your drive[/img]
 </ol>
 
 <strong>Do not forget your password!  Windows will give you the option of saving a recovery file if you do forget your password, however if you don't have the file you will lose all data on the drive.</strong>
@@ -52,25 +43,16 @@ To encrypt a flash drive on OS X:
 <li>Select the Parent Drive of your flash drive, it should be labeled as the brand of your flash drive, like "Kingston Datatraveler"</li>
 <li>Go to the Erase Tab and change the format to <code>Mac OS Extended (Journaled, Encrypted)</code></li>
 
-<figure class="post-image">
-<img src="http://ianspence.com/blog/wp-content/uploads/2013/09/encrypt_osx_dskutl.jpg" alt="Formatting your flash drive will remove all data that's on it, so make sure you backed up before!"><br>
-Formatting your flash drive will remove all data that's on it, so make sure you backed up before!<br>
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/09/encrypt_osx_dskutl.jpg"]Formatting your flash drive will remove all data that's on it, so make sure you backed up before![/img]
 
 <li>Click the Erase Button and enter the desired password and hint</li>
 
-<figure class="post-image">
-<img src="http://ianspence.com/blog/wp-content/uploads/2013/09/encrypt_osx_enable.jpg" alt="Enter the desired password"><br>
-Enter the desired password<br>
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/09/encrypt_osx_enable.jpg"]Enter the desired password[/img]
 
 <li>Click Erase, OS X will begin to encrypt the drive.  This will take some time, however because we took all of the data off of the drive it will be faster than if we didn't</li>
 <li>When complete, the drive will be encrypted and you will need to enter a password every time you connect the drive.</li>
 
-<figure class="post-image">
-<img src="http://ianspence.com/blog/wp-content/uploads/2013/09/encrypt_osx_unlock.jpg" alt="Enter your password to unlock your drive"><br>
-Enter your password to unlock your drive<br>
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/09/encrypt_osx_unlock.jpg"]Enter your password to unlock your drive[/img]
 </ol>
 
 <strong>Do not forget your password!  Without the password you will not be able to get any of the data on the drive, as well it will become difficult to recover the drive.</strong>
@@ -89,10 +71,7 @@ Windows will give you the option of saving a recovery key that can be used if yo
 <li>Open My Computer, right click your flash drive and select format</li>
 <li>Make sure the drive format is <code>Fat32</code> and <code>Quick Format</code> is checked</li>
 
-<figure class="post-image">
-<img src="http://ianspence.com/blog/wp-content/uploads/2013/09/encrypt_win_format.jpg" alt="Format the drive so you can use it again."><br>
-Format the drive so you can use it again.<br>
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/09/encrypt_win_format.jpg"]Format the drive so you can use it again.[/img]
 
 <li>Format the drive.</li>
 </ol>
@@ -111,4 +90,4 @@ OS X does not give you any password recovery methods other than a password hint,
 <li>This will remove all of the data on the drive and the encryption as well, you may now use your drive again.</li>
 </ol>
 
-[tip]<strong>Warning:</strong> be careful with the diskutil command, selecting the wrong disk can render your computer useless.[/tip]
+[tip]<strong>Warning:</strong> be careful with the <code>diskutil</code> command, selecting the wrong disk can render your computer useless.[/tip]

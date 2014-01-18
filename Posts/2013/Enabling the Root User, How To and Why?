@@ -13,13 +13,9 @@ To enable the root user, log in to your Mac using an Administrator account.  The
 <li>Click Open Directory Utility</li>
 <li>Click the lock in the lower left to unlock the settings pane</li>
 <li>Select Edit, then Enable Root User</li>
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/10/root_enableroot.jpg" alt="Enable the Root User" />
-Enable the Root User
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/10/root_enableroot.jpg"]Enable the Root User[/img]
 <li>Enter a password for the root user.  Note down the password you chose for the user, it's very difficult to reset a forgotten root password</li>
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/10/root_setpassword.jpg" alt="Make sure the password is strong for the root user" />
-Make sure the password is strong for the root user
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/10/root_setpassword.jpg"]Make sure the password is strong for the root user[/img]
 <li>Click OK and the root user has not been unlocked.</li>
 </ol>
 
@@ -31,25 +27,19 @@ There are three ways you can access the root user: using the GUI, the 'su' comma
 
 Now that you've enabled the root user, you'll notice that on the login screen there's a new 'Other Users' button that asks you for a username and password, well you can probably guess what we type there.  Enter the username <code>root</code> and whatever password you selected and click the login button.  You will then be asked to set up iCloud, I strongly recommend you do not set up iCloud to discourage normal use of the root user.  Once logged in, you can use terminal as the root user, and access files without issue in Finder.
 
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/10/root_login.jpg" alt="Using the GUI to log in as the Root User" />
-Using the GUI to log in as the Root User
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/10/root_login.jpg"]Using the GUI to log in as the Root User[/img]
 
 <h3>Using the 'su' command</h3>
 
 For those of you who are familiar with bash (which if you're planning to use the root user you should be), you can now use the <code>su</code> command to switch your current terminal session's identity to root.  Simply enter <code>su - root</code> and enter the password you chose when asked.  You can now use terminal as the root user.
 
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/10/root_terminal.jpg" alt="Using the Terminal to log in as the Root User" />
-Using the Terminal to log in as the Root User
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/10/root_terminal.jpg"]Using the Terminal to log in as the Root User[/img]
 
 <h3>Using the UNIX terminal</h3>
 
 The last method to access the root user is certainly the most advance.  Now that the root user has been enabled, another startup mode has also been enabled for your use, the Shell startup mode.  The shell startup mode gives you access to the UNIX shell and nothing else.  This shell gives you raw access to all areas of your computer that couldn't be accessed when your computer is running as OS X is using the files.  To start up in Shell mode, turn off your computer.  Hold <code>&#8984; + S</code> and press the power button.  You will see the Apple logo, followed by the rEFIt bootloader (normally hidden from boot).  If you have FileVault enabled, enter your password.  You will then see the UNIX kernel run through the startup process.  When complete your shell should show <code>:/ root#</code>.  From here, you can begin to use the root user in the UNIX shell.
 
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/10/root_shell.jpg" alt="Using the Unix Shell to log in as the Root User" />
-Using the Unix Shell to log in as the Root User
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/10/root_shell.jpg"]Using the Unix Shell to log in as the Root User[/img]
 
 <h2>Why using Root is dangerous</h2>
 
@@ -57,9 +47,7 @@ As mentioned before, OS X by default locks certain areas of your system to preve
 
 Each and every file and folder in OS X has permissions relating to it.  Permissions describe who can open, edit, or work with the files and folders of your system.  These permissions are ignored for the root user.  Say, for whatever reason, you have a file that nobody has access to, (<code>chmod 000</code> for those who know UNIX permissions).  Not even you, the creator of that file, can access it.  Root can.  Meaning that if exploited, the root user has access to all of your saved information on your user, and the important files of your system.
 
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/10/root_permission.jpg" alt="Permissions describe who can open, edit, or work with the files and folders of your system." />
-Permissions describe who can open, edit, or work with the files and folders of your system.
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/10/root_permission.jpg"]Permissions describe who can open, edit, or work with the files and folders of your system.[/img]
 
 However, having permissions be completely ignored for the root user can be both a blessing and a curse.  Even though it's heavily debated on the internet, the fact remains that permissions sometimes gets mucked up in OS X and you can lose access to files you once had.  This is where the root user can come in handy, as it can change permissions for any file regardless of what they are currently set at.
 
@@ -78,9 +66,7 @@ Resetting the root password is very similar to enabling the user itself:
 <li>Click Open Directory Utility</li>
 <li>Click the lock in the lower left to unlock the settings pane</li>
 <li>Select Edit, then Change Root Password</li>
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/10/root_enableroot.jpg" alt="Disabled in this picture, the change root password option is used to reset a forgotten root password" />
-Disabled in this picture, the change root password option is used to reset a forgotten root password
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/10/root_enableroot.jpg"]Disabled in this picture, the change root password option is used to reset a forgotten root password[/img]
 <li>Enter a new password for the user and verify it.</li>
 <li>Click OK and the password has been reset..</li>
 </ol>

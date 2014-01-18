@@ -4,9 +4,7 @@ Your computer, regardless of if you’re using it or not, is constantly communic
 
 A firewall is a virtual door controlled by an application on your computer that lies between your computer and the internet. Based on your rules, and its assumptions it will allow and deny connections through that door. This helps keep unwanted network connections from entering your computer, or in some cases, leaving it.
 
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/09/SNITCH_Testing.png" alt="Testing for open ports in Terminal"/>
-Testing for open ports in Terminal
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/09/SNITCH_Testing.png"]Testing for open ports in Terminal[/img]
 
 However, there isn’t just one door for every single network connection to go through, there are hundreds! Each of these doors is called a port, and each port is used for different purposes. For example, normal web browsing is done through port 80, secure web browsing is done through port 443, and file transfer is done through 21.
 
@@ -22,9 +20,7 @@ It’s not hard to set up Little Snitch, just a simple download and install. How
 
 When you load up Little Snitch for the first time, you will see that there are already a lot of rules created for you. Most of these rules have a lock on them, and are required for normal system operation. while you can disable them, you cannot (and should not) delete them. Selecting a locked rule will show a description of why it’s locked on the side.
 
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/09/SNITCH_Rules.png" alt="The Rule list in Little Snitch"/>
-The Rule list in Little Snitch
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/09/SNITCH_Rules.png"]The Rule list in Little Snitch[/img]
 
 On the left hand side of the Configuration Window, you will see the rule filters. Check these every now and again for redundant or invalid rules.
 
@@ -40,9 +36,7 @@ You can go even further by controlling where the application can connect:
 
 With all of these controls, you can create a virtually unlimited number of rules for your apps.
 
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/09/SNITCH_Auto.png" alt="Creating rules in Little Snitch"/>
-Creating rules in Little Snitch
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/09/SNITCH_Auto.png"]Creating rules in Little Snitch[/img]
 
 When creating filters, ask yourself “What does this application need to do?”. For example, a web browser like Google Chrome, Safari, or FireFox will need to connect to multiple domains and ports. Therefore, giving it a fully open rule would be the smart decision. From there, you can block specific domains if you need to. If you use any peer-to-peer applications like Transmission or uTorrent, you will need to allow it full network access for it to operate normally.
 
@@ -50,9 +44,7 @@ When creating filters, ask yourself “What does this application need to do?”
 
 If you need a little more robust control when creating rules, or can’t launch the application until a rule has been made, you can create rules manually through the Little Snitch Configuration Window. To do this, open Little Snitch and select New Rule. The New Rule sheet will drop down.
 
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/09/SNITCH_Manual.png" alt="Manually creating rules in Little Snitch"/>
-Manually creating rules in Little Snitch
-</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/09/SNITCH_Manual.png"]Manually creating rules in Little Snitch[/img]
 
 At the very top, you can control if you want to block or allow incoming or outgoing connections. You can then choose the application, or set a global rule that applies to all processes. Below that is the fine tuning controls for how you want this rule to work. You will notice that there are a lot more controls than the automatic rule sheet, so go ahead and play around with them!
 

@@ -9,7 +9,6 @@ Switching between wired and wireless network connections can be a real pain, but
 
 To get started, open System Preferences and choose <em>Network</em>. At the top of Network preferences you will see a <em>Network Locations</em> dropdown box. Click it and choose <em>Edit Locations</em>.
 
-<figure class="post-image"><img style="display: inline-block;" src="http://ianspence.com/blog/wp-content/uploads/2012/12/networklocations_preferences.jpg" alt="The Network Locations dropdown menu within Network Preferences." />
-The Network Locations dropdown menu within Network Preferences.</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2012/12/networklocations_preferences.jpg"]The Network Locations dropdown menu within Network Preferences.[/img]
 
 You can create and remove Network Locations by using the "+" and "-" buttons. Create a new location, call it "Wired" and click <em>Done</em>. Now disable all the network interfaces that you won't need when you're on Wired, for example: Wi-Fi and Bluetooth.  Make another network location called Wireless and do the same process except leave Wi-Fi enabled.  Now when you need to switch between the two connections you can, right from the Apple Menu.

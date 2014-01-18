@@ -2,7 +2,7 @@ Say you just upgraded from a Windows computer to a shiny new Mac. You're quite e
 
 <!--more-->
 <h2>Screencast</h2>
-<figure class="post-image"><iframe width="601" height="338" src="http://www.youtube.com/embed/ayECCtgc-5I" frameborder="0" allowfullscreen></iframe><br />How to Set Up an SMB Server in OS X and Windows 8</figure>
+[video url="http://www.youtube.com/embed/ayECCtgc-5I"]How to Set Up an SMB Server in OS X and Windows 8[/video]
 
 <h2>smb://</h2>
 
@@ -11,7 +11,7 @@ Just what the heck is a Samba or SMB server anyways? Well, a Server Message Bloc
 
 Lets break down what makes up a Samba URL:
 
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/02/Samba_URL.jpg" alt="A normal Samba URL" /><br />A normal Samba URL.</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/02/Samba_URL.jpg"]A normal Samba URL.[/img]
 
 <ol>
 <li><strong>smb://</strong> This defines the protocol used.</li>
@@ -57,7 +57,7 @@ This tutorial will cover how to set up folder sharing on Windows 8. The process 
 <li>Enter an administrator password if you're asked to at the UAC dialog</li>
 <li>Click the 'Change' below 'Network ID'</li>
 
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/02/Samba_WorkgroupSettings.jpg" alt="The Computer Name/Domain settings dialog." /><br />The Computer Name/Domain settings dialog.</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/02/Samba_WorkgroupSettings.jpg"]The Computer Name/Domain settings dialog.[/img]
 
 <li>Take note of the computer name and choose a workgroup name. This can be anything you like, I chose <code>ECNEPSNAI</code>, which is my name backwards</li>
 <li>Click <em>OK</em>, then <em>Apply</em>. You will be warned that you need to restart your computer. Save any open documents and restart your computer.</li>
@@ -70,7 +70,7 @@ This tutorial will cover how to set up folder sharing on Windows 8. The process 
 <li>Select <em>Network</em> to open Network Preferences</li>
 <li>Click the <em>Advanced</em> button in the bottom right</li>
 <li>Go to the <em>WINS</em> tab</li>
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/02/Samba_WINS.jpg" alt="The WINS settings in OS X." /><br />The WINS settings in OS X.</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/02/Samba_WINS.jpg"]The WINS settings in OS X.[/img]
 <li>Take note of the NetBIOS name and enter the same workgroup name as your set on your windows computer.</li>
 <li>Click <em>OK</em>, then <em>Apply</em>.</li>
 </ol>
@@ -84,8 +84,8 @@ This tutorial will cover how to set up folder sharing on Windows 8. The process 
 <li>Under the Computers section your MacBook will appear with the name you chose when when configuring OS X (the NetBIOS name).</li>
 [tip]<strong>Tip:</strong> It may take a few seconds for your MacBook to appear. If it doesn't refer to the instructions below.[/tip]
 <li>Double click on your MacBook, you will be asked to enter a username and password. This is the username and password for your MacBook, not the Windows computer.</li>
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/02/samba_WindowsCred.jpg" alt="Enter your MacBook Pro login here." />
-Enter your MacBook Pro login here.</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/02/samba_WindowsCred.jpg"]
+Enter your MacBook Pro login here.[/img]
 <li>Once connected, you can now browse the files on your Mac.</li>
 </ol>
 
@@ -102,7 +102,7 @@ Once you've gotten everything set up you can connect to the other computer and b
 <ol>
 <li>In Finder, select <em>Go</em> and <em>Connect to Server</em> (<strong>Command+K</strong>)</li>
 <li>On the Conntect to Server dialog, type in <code>smb://</code> followed by the name of the computer you wish to connect to</li>
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/02/smb_CTCDAG.png" alt="The Connect to Server dialog in OS X" /><br />The Connect to Server dialog in OS X</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/02/smb_CTCDAG.png"]The Connect to Server dialog in OS X[/img]
 <li>Click <em>connect</em>. You will be presented to enter a username and password, this is the password for the user on the computer you wish to connect to. Make sure to check "Remembver this password in my keychain"</li>
 <li>You will now be asked which folder to mount. By default, Windows will make the Users folder accessible, so you can mount that.</li>
 <li>You are now connected to that computer through smb!  You can access the files through the icon on your desktop or in any finder window.</li>
@@ -128,7 +128,7 @@ If you Map the drive; Windows will automatically connect to your network drive w
 <li>Open the <em>User Preferences</em> pane in System Preferences.</li>
 <li>Select the <em>Login Items</em> tab.</li>
 <li>Drag the Network Drive icon from your desktop to the Login Items list to add it.</li>
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/02/smb_LGLITMS.png" alt="The Login Items settings in System Preferences." /><br />The Login Items settings in System Preferences.</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/02/smb_LGLITMS.png"]The Login Items settings in System Preferences.[/img]
 <li>Check the <em>Hide</em> box so it will connect in the background.</li>
 </ol>
 

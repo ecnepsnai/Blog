@@ -16,7 +16,7 @@ As time progresses, computer programs become more and more powerful, while your 
 
 
 <h2>Freeing Up Disk Space</h2>
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/02/startupdisk-1.jpg" alt="Your startup disk is almost full, now what?" /><br />Your startup disk is almost full, now what?</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/02/startupdisk-1.jpg"]Your startup disk is almost full, now what?[/img]
 
 While having a full hard drive may not be the biggest contribution to having a slow computer, it can cause other weird side effects on daily use.  When an application needs more RAM than is available, it uses your hard drive as a "scratch-disk".  However, if your hard drive is too full, these applications may experience an "out of memory" error.  Adobe Photoshop is a prime example of an application that uses hard drives when there isn't enough memory.
 
@@ -27,7 +27,7 @@ Still need more space?  We have a full tutorial on <a href="http://mac.tutsplus.
 
 <h2>Solid State Drives</h2>
 
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/02/IntelFlash.jpg" alt="The inside of a Solid State Drive." /><br />The inside of a Solid State Drive.</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/02/IntelFlash.jpg"]The inside of a Solid State Drive.[/img]
 
 Solid state hard drives (SSDs) are becoming more and more popular now that the prices are starting to go down.  Before solid state drives, we relied on a spinning disk to read and write information to.  These disks are extremely fragile and take a long time to spin up. Thanks to flash storage, solid state drives don't use any spinning parts, and are much faster.
 
@@ -51,8 +51,8 @@ OS X lets you have applications automatically open when you turn on your compute
 <li>Open System Preferences and select <em>Users and Groups</em></li>
 <li>Select your user on the side and go to the <em>Login Items</em> tab</li>
 
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/02/Performance_LoginItems.png" alt="The Login Items settings tab." />
-The Login Items settings tab.</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/02/Performance_LoginItems.png"]
+The Login Items settings tab.[/img]
 
 <li>Select applications you don't need and click the minus button to remove them.</li>
 </ol>
@@ -106,8 +106,8 @@ OS X by default optimizes your network settings, so there isn't much you can do.
 <li>Click the <em>Advances</em> button in the lower right.</li>
 <li>On the <em>DNS</em> tab, remove all (if any) items under <em>DNS Servers</em>.</li>
 <li>Click the plus button and add the following addresses: <code>8.8.8.8</code> and <code>8.8.4.4</code>.</li>
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/02/Performance_DNS.png" alt="The DNS Settings tab." />
-The DNS Settings tab.</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/02/Performance_DNS.png"]
+The DNS Settings tab.[/img]
 
 <li>Click <em>OK</em> and <em>Apply</em>.</li>
 </ol>
@@ -129,8 +129,8 @@ It's a three step process: Identify your RAM Type, Purchase RAM, Install it.
 <ol>
 <li>Open <em>System Information</em> by searching for it in Spotlight or going to your Utilities folder.</li>
 <li>You will see the RAM type listed on the <em>Overview</em> tab.</li>
-<figure class="post-image"><img src="http://ianspence.com/blog/wp-content/uploads/2013/02/Performance_TYPE.png" alt="The RAM Type listed in System Information." />
-The RAM Type listed in System Information.</figure>
+[img src="http://ianspence.com/blog/wp-content/uploads/2013/02/Performance_TYPE.png"]
+The RAM Type listed in System Information.[/img]
 </ol>
 
 <strong>Purchasing RAM</strong>

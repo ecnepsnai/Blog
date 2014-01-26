@@ -1,0 +1,74 @@
+Objective-C, to me, is one of the most confusing and difficult programming languages I've yet to learn.  Over the next few months I'll be posting about my adventures in learning Objective-C.
+
+<h2>Grades</h2>
+
+The application I built today is a commonly used practice for new developers, a simple application that will show you your grades based off of the student ID you enter.  For this application I am going to need an array that holds all of the data for each student:
+[sourcecode language="objc"]
+self.students = [NSArray arrayWithObjects:
+	[[NSArray alloc] initWithObjects:@"A001",@"Student 1",@75,@80,@67,@78,@90,@87,nil],
+	[[NSArray alloc] initWithObjects:@"A002",@"Student 2",@53,@42,@35,@56,@45,@59,nil],
+	[[NSArray alloc] initWithObjects:@"A003",@"Student 3",@23,@43,@54,@43,@67,@64,nil],
+	[[NSArray alloc] initWithObjects:@"A004",@"Student 4",@85,@89,@100,@99,@90,@96,nil],
+	[[NSArray alloc] initWithObjects:@"A005",@"Student 5",@67,@75,@87,@80,@78,@90,nil],
+	nil];
+[/sourcecode]
+
+The structure of each entry - or student - is: <code>Student ID, Student Name, Grades(x6)</code>.  Now that I had an array of data, I need someway to have the user interact with it.  I decided to use a UITextField and a button that would trigger a function.
+
+[img src="http://blog.ianspence.com/wp-content/uploads/2014/01/2014-01-25-23.57.10.png"]The Grades Application in Action, showing my (non-genuine) class results[/img]
+
+I wanted to have an overall grade that was calculated based off of the other grades, and had to overcome some challenges that I wouldn't have in other programming languages.  I would expect to be able to use something like: <code>overallGrade = [sumOfAllScores] / [numberOfClasses]</code>, however as I have found with Objective-C, nothing can be done easily and I ended up using a probably incorrect method.  To start, I created an Array that would hold each class grade, and a NSInteger that would be the sum of all those grades:
+[sourcecode language="objc"]
+NSMutableArray *overall = [NSMutableArray array];
+NSInteger sumOfAllGrades = 0;
+[/sourcecode]
+As I passed through each grade, I would add it to the overall array:
+[sourcecode language="objc"]
+[overall addObject:student[2]];
+[/sourcecode]
+Then when finished with each class grade, I would add all of the scores up and finally calculate the overall score:
+[sourcecode language="objc"]
+for(id grade in overall) {
+	sumOfAllGrades += [grade integerValue];
+}
+
+NSInteger overallGrade = sumOfAllGrades;
+overallGrade = overallGrade / overall.count;
+[/sourcecode]
+
+<h2>What I learned</h2>
+
+<h3>Strings can't be tested for equality with ==</h3>
+
+Something I found very odd was that in Objective-C you can't use the == operator to test for string equality.  By that, I mean that this function:
+[sourcecode language="objc"]
+NSString *a = @"Apple";
+NSString *b = @"Apple";
+if(a == b){
+	return YES;
+} else {
+	return NO;
+}
+[/sourcecode]
+would produce NO, even though both strings are the same.  What I learned is that you must use the <code>isEqualToString</code> operator to test for string parity.  If we use this in our previous function:
+[sourcecode language="objc"]
+NSString *a = @"Apple";
+NSString *b = @"Apple";
+if([a isEqualToString:b]){
+	return YES;
+} else {
+	return NO;
+}
+[/sourcecode]
+It would now produce YES, as it should.
+
+<h3>NSDictionary doesn't retain its order</h3>
+
+Originally I planned to use a UIPicker that would be populated with student names.  However I discovered that NSDictionary does not keep the same order if you hard-coded its value.  For example, if your array was:
+[sourcecode]
+A:Alpha
+C:Charlie
+F:Foxtrot
+B:Bravo
+[/sourcecode]
+Selecting object at index 1 may not always return Charlie.  Objective-C does this for performance and memory reasons and to overcome it you must iterate through each item and manually sort them.

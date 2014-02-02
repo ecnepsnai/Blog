@@ -1,5 +1,10 @@
 #Change Log
 
+##Version 1.5
+
+ - **Added**: Added new post header for major posts
+ - **Fixed**: Cleaned up existing post header HTML
+
 ##Version 1.4
 
  - **Fixed**: YouTube videos now have a central design and are responsive

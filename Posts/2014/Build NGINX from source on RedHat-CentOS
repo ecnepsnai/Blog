@@ -54,10 +54,10 @@ Make a folder in your home directory called sources
 [sourcecode language="bash"]mkdir sources && cd sources[/sourcecode]
 
 Download the latest source of NGINX from the <a href="http://wiki.nginx.org/Install#Source_Releases">NGINX webpage</a> and Extract the source tarball:
-[sourcecode language="bash"]curl -o nginx.tar.gz http://nginx.org/download/nginx-1.5.12.tar.gz && tar xf nginx.tar.gz[/sourcecode]
+[sourcecode language="bash"]curl http://nginx.org/download/nginx-1.5.12.tar.gz | tar -xzf -[/sourcecode]
 
-Move into the extracted folder and double check that you have a C / C++ compiler, if you already do, this command is harmless:
-[sourcecode language="bash"]yum install gcc gcc-c++[/sourcecode]
+Move into the extracted folder and double check that you have a C / C++ compiler and some of the reqired packages for NGINX.  If you already have any of these, this command is harmless:
+[sourcecode language="bash"]yum install gcc gcc-c++ pcre pcre-devel openssl openssl-devel zlib zlib-devel[/sourcecode]
 
 Now for the fun part: configuration options!  NGINX has a lot of configuration options to customize how it will run and what is installed.  The best part is that if you decide that you need something later; you can run the script again with ease.  We're going to go over a few of the common install options, but I recommend you check out the <a href="http://wiki.nginx.org/InstallOptions">Wiki page for InstallOptions</a>
 
@@ -75,8 +75,7 @@ Now for the fun part: configuration options!  NGINX has a lot of configuration o
 So once you've chosen the options you want, type <code>./configure</code> followed by your options separated by a single space.  This is the command I used, but you can use what works for you:
 [sourcecode language="bash"]./configure --user=ian --group=ian --sbin-path=/usr/sbin/nginx --conf-path=/etc/nginx/nginx.conf --pid-path=/var/run/nginx.pid[/sourcecode]
 
-Chances are, that configure script will fail because of a missing dependency, these are the ones I had to install.  Install the required packages, then run your configure script until you see the <em>Configuration Summary</em> at the bottom (this means it worked!)</em>.
-[sourcecode language="bash"]yum install pcre pcre-devel zlib zlib-devel[/sourcecode]
+Chances are, that configure script will fail because of a missing dependency, install the required packages, then run your configure script until you see the <em>Configuration Summary</em> at the bottom (this means it worked!)</em>.
 
 You're almost done!  Download the <a href="http://wiki.nginx.org/RedHatNginxInitScript">NGINX RedHat init.d script</a> so that we can use the service command.
 [sourcecode language="bash"]vi /etc/init.d/nginx[/sourcecode]

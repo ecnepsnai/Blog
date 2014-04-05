@@ -1,5 +1,11 @@
 #Change Log
 
+##Version 1.6
+
+ - **Changed**: Complete design overhaul to match the updated ianspence.com look.
+
+*Note:* Various features have been removed, they will be added soon as I didn't want to release a half-baked theme.
+
 ##Version 1.5
 
  - **Added**: Added new post header for major posts

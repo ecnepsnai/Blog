@@ -1,5 +1,12 @@
 #Change Log
 
+##Version 1.7
+
+ - **Added**: Search function has been implemted once again
+ - **Improved**: Serif typeface for articles
+ - **Improved**: Post images now don't have the ugly background
+ - **Fixed**: Post Frames don't get cut off anymore
+
 ##Version 1.6
 
  - **Changed**: Complete design overhaul to match the updated ianspence.com look.

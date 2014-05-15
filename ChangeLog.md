@@ -1,5 +1,11 @@
 #Change Log
 
+##Version 1.8
+
+ - **Added**: Twitter Card functionality
+ - **Improved**: Facebook OpenGraph interactivity
+ - **Improved**: Increased line spacing of articles
+
 ##Version 1.7
 
  - **Added**: Search function has been implemted once again

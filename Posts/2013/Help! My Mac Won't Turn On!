@@ -28,8 +28,6 @@ If you do have RAM installed properly and are receiving this error: your motherb
 
 This is one of the more common POST errors, and usually happens after the RAM has been upgraded in your machine. When you get a two beep error your computer is telling you: “There is RAM and it is properly installed, but I can’t use it”. Make sure you purchased the correct type of RAM for your computer. If you still have them, install the stock RAM chips that came with your computer.
 
-For help in this area, take a look at our tutorial on how to install RAM on a MacBook Pro.
-
 <h3>3 Beeps: No Good Banks</h3>
 
 This is another common POST error, meaning that the RAM installed on your computer isn’t properly seated in the tray, and thus not communicating with the motherboard properly. Make sure that the RAM was installed properly on the motherboard, and that the connection diodes are not dirty or broken.

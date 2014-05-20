@@ -1,5 +1,11 @@
 #Change Log
 
+##Version 1.9
+
+ - **Added**: Post Header Image Support (No Parralax)
+ - **Removed**: Redundant links to Windows, Linux, and OS X tutorials
+ - **Improved**: Added share buttons at the bottom of the post - **Buttons are links that open a popup, not a js embedded tracking button!**
+
 ##Version 1.8
 
  - **Added**: Twitter Card functionality

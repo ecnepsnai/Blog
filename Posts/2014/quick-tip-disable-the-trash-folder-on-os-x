@@ -1,0 +1,38 @@
+A feature that is lacking from OS X is the ability to disable the trash folder and have all items be removed entirely.  In this quick tip, I'll show you how to disable the trash folder.
+
+<!--more-->
+
+<hr>
+
+<h2>Disable the Trash Folder</h2>
+
+To disable the trash folder, all you have to do is open a terminal window and enter the following commands:
+
+[sourcecode lang="bash"]cd
+rm -rf .Trash
+touch .Trash
+chmod 000 .Trash[/sourcecode]
+
+This accomplishes two things:
+
+<ol>
+<li>Deleted the trash folder for the current user.  <code>.Trash</code> is a hidden directory inside the home folder of the user.  That is where deleted files are kept.</li>
+<li>Created a file called <code>.Trash</code> and prevent it from being modified.  This prevents finder from trying to re-enable trash</li>
+</ol>
+
+When you try to delete a file, you will now see this prompt.
+
+[img src="http://blog.ianspence.com/wp-content/uploads/2014/06/delete_confirm.jpg"]Are you sure you want to delete this file?[/img]
+
+If you don't want to see that prompt every time just press <code>Command + Option + Delete</code> rather than <code>Command + Delete</code>.  This will just delete the file with no fuss!
+
+<hr>
+
+<h2>Enable the Trash Folder</h2>
+
+To enable the trash folder, all you have to do is open a terminal window and enter the following commands:
+
+[sourcecode lang="bash"]cd
+rm -rf .Trash
+mkdir .Trash
+chmod 700 .Trash[/sourcecode]

@@ -1,5 +1,10 @@
 #Change Log
 
+##Version 1.9.1
+
+ - **Fixed**: Search button is now vectorized and styled properly thanks to Octicons
+ - **Improved**: Improvied structured and highlighted data to help with SEO
+
 ##Version 1.9
 
  - **Added**: Post Header Image Support (No Parralax)

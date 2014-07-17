@@ -77,6 +77,9 @@ So once you've chosen the options you want, type <code>./configure</code> follow
 
 Chances are, that configure script will fail because of a missing dependency, install the required packages, then run your configure script until you see the <em>Configuration Summary</em> at the bottom (this means it worked!)</em>.
 
+Now you install it:
+[sourcecode language="bash"]make && make install[/sourcecode]
+
 You're almost done!  Download the <a href="http://wiki.nginx.org/RedHatNginxInitScript">NGINX RedHat init.d script</a> so that we can use the service command.
 [sourcecode language="bash"]vi /etc/init.d/nginx[/sourcecode]
 

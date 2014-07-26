@@ -1,10 +1,10 @@
 As both a Windows and OS X user one of the most obvious difference between the two is the font rendering, specifically how awful it is on Windows.  Since Windows XP Microsoft has used their own technology called 'ClearType' to improve the readability of fonts by lighting nearby subpixels around the primary lines that make up a letter.  <a href="http://en.wikipedia.org/wiki/Subpixel_rendering">Wikipedia</a> has a great article on how subpixel rendering works.  Each and every pixel is composed of three subpixels: Red, Green, and Blue.  So if you have a 1 pixel wide line, all three subpixels would light up to create the shape.  However, when used with fonts, this creates very jagged edges which look awful.
 
-[img src="http://ianspence.com/blog/wp-content/uploads/2013/10/fonts_compair.jpg"]The font quality difference between OS X and Windows can clearly be seen here.[/img]
+[img src="http://blog.ianspence.com/wp-content/uploads/2013/10/fonts_compair.jpg"]The font quality difference between OS X and Windows can clearly be seen here.[/img]
 
 On CRT displays Subpixel rendering wasn't needed, as the images shown on screen just went as sharp and clear as LCD displays. However, CRT displays are obsolete and being quickly replaced by LCD and LED screen so ClearType works to fix the issue of jagged fonts by lighting some of the sub pixels around the shapes edges to soften it, making it easier to read.  Windows XP is now over a decade old, and still Microsoft has not made an attempt to improve the quality of typefaces on Windows.  But what about something that's much more up-to-date than Windows XP, like Google Chrome?  Surly Google, a company that is renowned for its design would have fixed this issue in their browsers, right?  Wrong. Google Chrome doesn't play nice with ClearType at all, it essentially disables it.  <a href="https://code.google.com/p/chromium/issues/detail?id=137692">Google is well aware of this issue</a>, and are working on a fix, but in the meantime we will just have to find our own way of fixing problems like this:
 
-[img src="http://ianspence.com/blog/wp-content/uploads/2013/10/fonts_chrome.jpg"]The difference in font rendering between Internet Explorer and Google Chrome[/img]
+[img src="http://blog.ianspence.com/wp-content/uploads/2013/10/fonts_chrome.jpg"]The difference in font rendering between Internet Explorer and Google Chrome[/img]
 
 In this tutorial I will go over how you can improve the rendering of fonts on Windows machines.
 
@@ -12,8 +12,12 @@ In this tutorial I will go over how you can improve the rendering of fonts on Wi
 
 MacType is a rebuild of a much older project called GDI++, MacType is a simple program that overrides the font rendering software on your computer and makes the typefaces look more like "Mac".  This software is free of charge, and will work with all modern versions of Windows (Even 8.1).  The best part is, it works perfectly with Google Chrome.  You can download MacType from <a href="https://code.google.com/p/mactype/">Google Code</a>.
 
-[img src="http://ianspence.com/blog/wp-content/uploads/2013/10/fonts_mactype.jpg"]The MacType welcome screen.[/img]
+[img src="http://blog.ianspence.com/wp-content/uploads/2013/10/fonts_mactype.jpg"]The MacType welcome screen.[/img]
 
 After installing MacType you will be asked how you want it to run: In the registry, as a service, or as a program (manual).  I recommend you run it as from the registry as it will affect almost all programs.  Service works well, too, if you need to disable it without restarting the computer.  You will then be presented some presets of different rendering settings, chose the one that looks best for you and that completes the setup.  Restart your computer, and you'll notice things will look a lot better!
 
 [tip]<strong>Tip:</strong> GDI++ is a Japanese program, and being that MacType was built from it you may have the homescreen in Japanese or other languages, the language dropdown in the top right will fix that.[/tip]
+
+<hr>
+
+<strong>Update July 27th, 2014:</strong> Google Chrome version 37 onward now uses DirectWrite which is the same font-rendering engine used in Internet Explorer and Firefox.  This long lasting bug is finally ending.  If you want to use MacType's rendering with Google Chrome, you can disable DirectWrite by navigating to <code>chrome://flags/#disable-direct-write</code> and clicking "Enable".

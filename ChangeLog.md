@@ -1,5 +1,9 @@
 #Change Log
 
+##Version 1.9.2
+
+ - **Fixed**: Fonts now work properly on mobile devices
+
 ##Version 1.9.1
 
  - **Fixed**: Search button is now vectorized and styled properly thanks to Octicons

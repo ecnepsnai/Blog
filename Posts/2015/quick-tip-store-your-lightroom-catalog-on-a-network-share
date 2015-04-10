@@ -1,0 +1,31 @@
+Due to a limitation in the database engine Adobe Lightroom uses, SQLite, Catalog files can not be stored on a network drive.  This is due to the specific file locking features required by SQLite that may be absent in a network share.  However, if you're like me you have a massive library of photos, and your catalog can be a huge file taking up lots of space.  Storing it on a network share, like a NAS, is a great way to save space.  In this tutorial, I will show you how to store a Adobe Lightroom catalog on a Network Share on Windows and OS X.
+
+<hr>
+
+<h2>On OS X</h2>
+
+<ol>
+<li>Mount your network share.  You can use my earlier tutorial for instructions on how to do that.</li>
+<li>Open Disk Utility and Click <em>New Image</em></li>
+<li>Set the size to something appropriate according to the size of your catalog file.  You can choose a custom size if needed.  Select <em>Hard Disk</em> for the Partitions</li>
+[img src="https://blog.ianspence.com/wp-content/uploads/2015/04/lightroom_diskutil.png"]Creating the Disk Image[/img]
+<li>Once created, it will automatically be mounted and open in Finder.  Move (not copy) your catalog from your Pictures folder into that disk image</li>
+<li>Open Lightroom, you will be asked to choose a new library or create a new.  Choose to browse for a library and navigate to your mounted disk image and select the <rm>.lrcat</rm> file</li>
+<li>Check <em>Always load this catalog on startup</em></li>
+[img src="https://blog.ianspence.com/wp-content/uploads/2015/04/lightroom_cat_osx.png"]Selecting a catalog in Lightroom[/img]
+</ol>
+<h2>On Windows</h2>
+
+<ol>
+<li>Open the start screen and type <em>Disk Management</em>, click <em>Create and format hard disk partitions</em> to open Disk Management</li>
+[img src="https://blog.ianspence.com/wp-content/uploads/2015/04/lightroom_diskmgnt.png"]Search for Disk Management[/img]
+<li>Click <em>Action</em> in the menu and then <em>Create VHD</em></li>
+<li>Set the location of the VHD to the network share of your choice, and set the size to an appropriate size.  If you're on Windows 8.1 or above, select VHDX.  <strong>Select Dynamically expanding</strong>.  Click OK</li>
+[img src="https://blog.ianspence.com/wp-content/uploads/2015/04/lightroom_vhd.png"]Create a new VHD[/img]
+<li>In the list of disks, you'll now see a new disk with a status of <em>Not Initialized</em>.  Right click it and initialize the disk.  Accept the default values and click OK</li>
+[img src="https://blog.ianspence.com/wp-content/uploads/2015/04/lightroom_initilize.png"]Initialize the disk[/img]
+<li>Now, right click on the unallocated partition to the right of the disk (the white square with the black bar on top) and select <em>New Simple Volume</em>.  Again, accept all of the defaults.  You may want to rename the volume from <em>New Volume</em> to something more descriptive.</li>
+<li>Once created, it will automatically be mounted and open in Explorer.  If not, you can see it in My Computer.  Move (not copy) your catalog from your Pictures folder into that disk image</li>
+<li>Open Lightroom, you will be asked to choose a new library or create a new.  Choose to browse for a library and navigate to your mounted disk image and select the <rm>.lrcat</rm> file</li>
+<li>Check <em>Always load this catalog on startup</em></li>
+</ol>

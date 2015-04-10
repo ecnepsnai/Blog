@@ -1,0 +1,43 @@
+I am thrilled to announce general availability of Vancity Transit version 1.2.  This is our largest update to-date and I really hope you'll love the new features it brings with it.
+
+<hr/>
+
+<h1>Service Alerts Push Notifications</h1>
+
+With Vancity Transit, you've always been able to see the service status for the major transit services in the lower mainland, however if something were to happen while you weren't in the app you would have no way of knowing unless you opened it up.  That's not good enough, and so I'm excited to say that Vancity Transit now supports Push Notifications for Service Alerts!
+
+[img src="https://blog.ianspence.com/wp-content/uploads/2015/04/vctrn12_notifications.png"]Left: A notification for a major skytrain disruption. Right: Notification settings[/img]
+
+While we're not the first app to have service notifications, we're the first to let you completely fine-tune them to your liking.  Take the SeaBus but not the SkyTrain? Don't care about minor issues? No Problem! You can filter which notifications you receive in the new settings menu.
+
+<h1>Notify When My Bus Is...</h1>
+
+On a tight schedule? Let Vancity Transit do the work for you with our new "Notify me when my bus is" feature.  Get advance notice of when your bus is 5, 10, 15, or 20 minutes away from your selected stop.
+
+[img src="https://blog.ianspence.com/wp-content/uploads/2015/04/vctrn12_notifywhen.png"]Know when to leave for your bus[/img]
+
+In future updates, Vancity Transit can use the timetable filter for your route to alert you when you'll have to leave if you want to be on-time.
+
+<h1>Redesigned Quick View</h1>
+
+The old quick view tab was meant as a very rapid way of seeing the bus stops and their buses around your location without any unnecessary tapping or typing.  It failed to deliver on that promise, and we've completely redesigned it to make it as fast and as intuitive as possible.
+
+[img src="https://blog.ianspence.com/wp-content/uploads/2015/04/750x1334ss-80.png"]The all new Quick View tab[/img]
+
+Without having to enter a bus stop number or select a nearby stop, the new Quick View tab shows all of the buses around your location in a presentable and easy-to-read format.  Plan on using the quick view tab more than a route list? No problem! You can set the quick view tab as the default tab in the settings menu.
+
+<hr/>
+
+<h1>Keeping our promise</h1>
+
+I have three core principles when releasing a non-free app like Vancity Transit:
+
+<ol>
+<li>No Ads. Ever.</li>
+<li>No Paid Updated.</li>
+<li>Always Configurable</li>
+</ol>
+
+And I'm keeping our word with this update.  As mentioned above, this is the biggest update to date for Vancity Transit.  And for those who've previously purchased the app, you'll get all of these features, as well as future updates for free.  Without ads.
+
+And, as always, I'm making all of these features with plenty of options and settings that you can customize to make Vancity Transit work for you. <a href="http://bit.ly/VancityTransit">Download Vancity Transit 1.2 Now!</a>, <a href="http://bit.ly/1GSVLK0">View full release notes</a>

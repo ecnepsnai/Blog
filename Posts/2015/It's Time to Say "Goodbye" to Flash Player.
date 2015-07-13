@@ -1,0 +1,45 @@
+Two years ago I wrote on how to disable Java from your web browser.  Now, it's time to say "Goodbye" to Adobe Flash Player, for good.  In the past week alone, multiple critical security vulnerability have been discovered that put you at risk, even if you keep flash up-to-date or use Google Chrome.
+
+<!--more-->
+
+<h3>Google Chrome</h3>
+
+<ol>
+<li>In the Omnibox, type in <code>about://plugins</code> and press Enter</li>
+<li>Find Adobe Flash Player and click Disable</li>
+</ol>
+
+<h3>Safari</h3>
+
+<ol>
+<li>Open Safari's Preferences and go to the Security tab</li>
+<li>Click on the "Website Settings..." button next to "Allow Plugins"</li>
+<li>Select "Adobe Flash Player" from the menu, click "When visiting other websites" and then select "Block".</li>
+</ol>
+
+<h3>Firefox</h3>
+
+<ol>
+<li>Select Add-Ons from under the Tools menu</li>
+<li>Go to the Plugins tab</li>
+<li>Click Disable beside Shockwave Flash Plug-in...</li>
+</ol>
+
+<h3>Opera</h3>
+
+<ol>
+<li>In the Omnibox, type in <code>about://plugins</code> and press Enter</li>
+<li>Find Adobe Flash Player and click Disable</li>
+</ol>
+
+<h3>Internet Explorer</h3>
+
+<ol>
+<li>Click the Cog/Gear button and select Manage Add-ons</li>
+<li>Select "Currently loaded add-ons" and choose "All add-ons"</li>
+<li>Find "Shockwave Flash Object" and click Disable</li>
+</ol>
+
+<h2>But what if I need Flash Player?</h2>
+
+If you absolutely NEED the Flash Player for a website I would recommend you download and install a secondary browser and enable it on that, and only use that browser for that specific task.  For example, if you use Google Chrome as your primary browser: download and install Firefox and enable Flash in it so you can use that one website.

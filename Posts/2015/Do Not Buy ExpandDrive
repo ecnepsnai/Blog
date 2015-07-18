@@ -1,0 +1,41 @@
+I've been a long time user of the <a href="https://code.google.com/p/win-sshfs/">win-sshfs</a> package.  This software lets you mount a SFTP share as a drive on Windows PCs.  Win-sshfs uses the Dokan library, which is a bit out-of-date and unfortunately causes kernel panics (Blue Screens of Death) on my computer.
+
+So, after getting one too many BSODs, I decided to start looking for different solution.  ExpandDrive came up as a pretty good alternative, so I downloaded the demo and gave it a shot.  It worked "okay", with one major problem: Performance.
+
+ExpanDrive doesn't seem to actually act as a filesystem, rather just a daemon that looks for changes to any files and syncs them with your remote server, much like Dropbox or Google Drive.  However, unlike Dropbox or Google Drive, ExpandDrive has serious performance problems.
+
+I left the trial alone until it expired, and then decided to purchase the product after I read that they announced a big update which improved performance.  This is where I made a mistake believing that they weren't embellishing the truth.
+
+When I would make a change to any file in Sublime Text 3 and save it, the entire program would lock up for about a minute while ExpanDrive gets the hamster that powers it to start running in its wheel. This makes development absolutely impossible.
+
+<blockquote>...the entire program would lock up for about a minute while ExpanDrive gets the hamster that powers it to start running in its wheel.</blockquote>
+
+I contacted their support team (or rather just sent an email to support@expandrive.com because they don't seem to have any kind of ticketing system) and explained my problems and included the error log.
+
+[img src="https://blog.ianspence.com/wp-content/uploads/2015/07/expandrive_email.png"]The email I sent to their support team[/img]
+
+A few moments later I received what seemed to be an automated email from their CEO asking how my purchase was going.  I sent him the same email as I did the support team.  That was on Wednesday, and by Saturday morning I still haven't heard a thing back from either of them.
+
+Now I'm left with an $80 piece of software that doesn't do the one feature it's supposed to do, so I'm writing this warning to let you all know: <strong>Do not buy ExpanDrive</strong>.
+
+<hr/>
+
+<div class="review_score">
+<div>
+<strong>The Good</strong>
+<ul>
+<li>Doesn't cause kernel panics</li>
+</ul>
+</div>
+<div>
+<strong>The Bad</strong>
+<ul>
+<li>Locks up when saving</li>
+<li>MIA support team and CEO</li>
+</ul>
+</div>
+<div>
+<h2 class="review_final_score">Final Score: 1/10</h2>
+</div>
+</div>
+<blockquote>Do not buy this software unless you like wasting money</blockquote>

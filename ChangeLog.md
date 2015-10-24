@@ -1,5 +1,10 @@
 #Change Log
 
+##Version 1.9.3
+
+ - **Removed**: Disqus integration
+ - **Removed**: Google Analytics
+
 ##Version 1.9.2
 
  - **Fixed**: Fonts now work properly on mobile devices

@@ -24,6 +24,8 @@ When your computer runs through the POST sequence, it checks to see if any RAM i
 
 If you do have RAM installed properly and are receiving this error: your motherboard may be faulty and not detecting the RAM.
 
+<strong>Update:</strong> It has been reported that your Mac may emit a single beep during a system update.  This beep is not a POST failure, and does not indicate that you do not have any RAM installed.
+
 <h3>2 Beeps: Incompatible RAM Types</h3>
 
 This is one of the more common POST errors, and usually happens after the RAM has been upgraded in your machine. When you get a two beep error your computer is telling you: “There is RAM and it is properly installed, but I can’t use it”. Make sure you purchased the correct type of RAM for your computer. If you still have them, install the stock RAM chips that came with your computer.
@@ -71,7 +73,7 @@ The System Management Controller is an important piece of software that manages 
 <ol>
 <li>Shut down the computer completely.</li>
 <li>Plug in your AC adapter and make sure it’s delivering power.</li>
-<li>Using the built-in keyboard, press and hold the <strong>Left Shift, Command, Option</strong> and <strong>Power Button</strong> at the same time.</li>
+<li>Using the built-in keyboard, press and hold the <strong>Left Shift, Control, Option</strong> and <strong>Power Button</strong> at the same time.</li>
 <li>Release all the keys at the same time.</li>
 <li>Press the power button to power on your computer.</li>
 </ol>
@@ -111,7 +113,7 @@ Once in safe mode, look for problematic applications or services that are causin
 
 Apple stopped shipping recovery DVDs with their products a while ago, and while that may seem like a bad thing, it really isn’t. Your Mac has an extra partition on its hard drive that’s dedicated for recovery tools. This is the Recovery HD. From the Recovery HD, you can reinstall OS X, access Disk Utility to manage your disks, or get help documentation if you can’t boot.
 
-[img src="http://ianspence.com/blog/wp-content/uploads/2013/09/bootfail_OSXUTIL.jpg"]The OS X Recovery application gives you the power to fix your mac if it won’t turn on[/img]
+[img src="http://blog.ianspence.com/wp-content/uploads/2013/09/bootfail_OSXUTIL.jpg"]The OS X Recovery application gives you the power to fix your mac if it won’t turn on[/img]
 
 To access the Recovery HD:
 

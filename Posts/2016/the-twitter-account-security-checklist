@@ -1,0 +1,94 @@
+Tech bloggers are buzzing right now with the recent unconfirmed reports that Twitter was compromised with 33 million accounts leaked. Account compromise is nothing new, in Spring 2016 LinkedIn, Tumblr, MySpace, and VK all had hundreds of millions of their users account sold (although the compromise took place a few years ago).
+
+This post is a detailed guide to securing your Twitter account.
+
+<!--more-->
+
+<h1>The big three</h1>
+
+The first three things you <strong>need</strong> to do in order to secure any Twitter account are non-obtrusive and provide great security benefits.
+
+<h2>Change & don't re-use your password</h2>
+
+You've probably heard it a million times before: <em>"Don't re-use passwords!"</em> and you'll probably keep hearing it until passwords aren't a thing anymore, but for now you'll do well to heed that advice.
+
+You should change your Twitter password peroidiocally. If you can't remember the last time you changed it, now's a perfect time to do it!
+
+<h3>To change your password:</h3>
+
+<ol>
+<li>Click on your user picture in the menu bar in the top right and select "Settings"<br/>[img src="https://blog.ianspence.com/wp-content/uploads/2016/06/access_settings.png"]Accessing account settings[/img]</li>
+<li>Select "Password" in the sidebar<br/>[img src="https://blog.ianspence.com/wp-content/uploads/2016/06/change_password.png"]Changing your Twitter password[/img]</li>
+<li>Enter your current and new passwords</li>
+</ol>
+
+<h3>Remembering your new password:</h3>
+
+Now you've got a new and hopefully strong password for your account. How do you keep it safe and not forget it? A password manager! A password manager is a piece of software, usually in the form of a desktop application or a browser extension, that lets you store all of your passwords in a secure place, even letting you sync them across all of your devices and automatically filling in details for you.
+
+I personally use <a href="https://www.lastpass.com/">LastPass</a> and would highly recommend it to everybody, however <a href="https://1password.com/">1Password</a>, and <a href="http://keepass.info/">KeePass</a> are also good solutions.
+
+<h2>Review authorized applications</h2>
+
+Twitter requires that third-party applications that use your account must use a system called oAuth. This system makes it easy to grant applications access to your account without giving them your password, or needing to log in every time you change your password. That can be a double-edged sword, however, as the list of authorized apps will just keep growing unless you go through and remove some apps.
+
+<h3>To review authorized apps:</h3>
+
+<ol>
+<li>Click on your user picture in the menu bar in the top right and select "Settings"<br/>[img src="https://blog.ianspence.com/wp-content/uploads/2016/06/access_settings.png"]Accessing account settings[/img]</li>
+<li>Select "Apps" in the sidebar</li>
+<li>Go through the list of apps and click "Revoke Access" for any app that you don't use, or don't remember adding<br/>[img src="https://blog.ianspence.com/wp-content/uploads/2016/06/revoke_oauth.png"]Removing apps from Twitter[/img]</li>
+</ol>
+
+<h2>Enable two-factor authentication</h2>
+
+Two factor authentication is a wonderful security feature to Twitter, it literally adds a second layer of authentication to your account by requiring that you enter a code that is sent to your phone when you want to log in. <strong>This feature requires that you have a cell phone that can receive SMS messages or a smart phone that can use the Twitter app.</strong>
+
+<h3>To enable two-factor authentication:</h3>
+
+<ol>
+<li>Click on your user picture in the menu bar in the top right and select "Settings"<br/>[img src="https://blog.ianspence.com/wp-content/uploads/2016/06/access_settings.png"]Accessing account settings[/img]</li>
+<li>Select "Security and Privacy" in the sidebar</li>
+<li>If you haven't already, you'll need to associate a phone number to this account. To do this, click "Add a phone" below "Verify login requests"</li>
+<li>Once you've added a phone to the account, or if your account already had a phone, check "Verify Login Requests".</li>
+<li>Follow the on-screen instructions to complete the setup. When completed, make sure to generate a backup code and save it somewhere.<br/>[img src="https://blog.ianspence.com/wp-content/uploads/2016/06/backup_code.png"]Remember to keep the backup code safe![/img]</li>
+<li>You'll also want to check "Require personal information to reset my password" for added security.<br/>[img src="https://blog.ianspence.com/wp-content/uploads/2016/06/two_factor.png"]Enabling security settings[/img]</li>
+</ol>
+
+<h1>Going further</h1>
+
+If you've completed the above three steps you've done a great deal to better protect your account, but you can always go further!
+
+<h2>Use a secure email provider for your account</h2>
+
+While the recent allegations of Twitter being hacked are frightening, nearly every account that has been "hacked" in the past were the result of phishing scams, not a direct compromise of Twitter.
+
+Phishing scams are when an attacker sends an email to a user pretending to be Twitter asking them to sign in. When the unsuspecting user clicks the link in the email they aren't taken to Twitter, but rather some other site that will often look exactly like it. Once they've entered their password, the attacker now knows the username and password without ever having to think about compromising Twitter.
+
+The other way Twitter accounts are often compromised are through breaking in to the email address associated with the account. Most online services will let you reset a password using an email address, but how do you reset a password for an email account? Some email providers offer abysmal account security and can easily be fooled into resetting a password for an skilled attacker, not only giving them access to the email address, but every account associated with it.
+
+Both of these dangers can be avoided by using a secure email provider, like <a href="https://mail.google.com/">GMail (Google Mail)</a> or <a href="https://outlook.com/">Outlook.com</a>.
+
+Here's what makes a secure email provider:
+
+<ul>
+<li>HTTPS is required</li>
+<li>Offers Two-Factor Authentication</li>
+<li>Offers strong spam & phishing protection</li>
+</ul>
+
+[img src="https://blog.ianspence.com/wp-content/uploads/2016/06/mail_two_factor.png"]Gmail offers superior Two-Factor Authentication support[/img]
+
+<h2>Use TweetDeck or Hootsuite for shared accounts</h2>
+
+Unfortunately Twitter does not make it possible to use Two-Factor authentication for shared accounts, as it must be linked to a phone number. The good news is that there are two great products out there that make it possible to share Twitter accounts with users without having to give them the password! <a href="https://tweetdeck.twitter.com/">TweetDeck</a> and <a href="https://hootsuite.com/">HootSuite</a> are the most notable products that work wonderful for shared accounts.
+
+[img src="https://blog.ianspence.com/wp-content/uploads/2016/06/tweet_deck_team.png"]Enabling "Team Mode" for an account in TweetDeck[/img]
+
+<h2>Don't use "Sign In with Twitter"</h2>
+
+"Sign in with Twitter" is a feature offered by Twitter that lets people quickly sign up for an account on a service that isn't Twitter using the information from their Twitter account. The issue with this is that often these services don't limit the permissions they request when they set up the login, and users often grant them the ability to write to the account (I.E. post tweets, delete tweets, make changes to account information).
+
+[img src="https://blog.ianspence.com/wp-content/uploads/2016/06/sign_in_with_twitter.png"]Don't click that button![/img]
+
+Avoid using sign in with Twitter on services and opt to use email registration with a unique password. This will help keep unnecessary apps with access to your account.
